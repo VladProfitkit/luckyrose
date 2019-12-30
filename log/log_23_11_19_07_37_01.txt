@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-11-23 07:37:01
+Module: UserAdd
+array (
+  'LOGIN' => 'piterDok',
+  'NAME' => 'piterDok',
+  'LAST_NAME' => 'piterDokVH',
+  'PASSWORD' => 'q9Ndw#v4r4E',
+  'CHECKWORD' => '89ccd80aebd1a375b4f5538338509b7d',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'q9Ndw#v4r4E',
+  'EMAIL' => 'p.i.termo.r.g.ans.p.o.rts.t.o.re.w.orl.d20.1.6.@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '188.165.232.202',
+  'USER_HOST' => '188-165-232-202.serverhub.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'Incorrect E-Mail<br>User with login "piterDok" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

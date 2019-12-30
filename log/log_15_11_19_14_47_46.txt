@@ -1,0 +1,32 @@
+Host: luckyroseclub.com
+Date: 2019-11-15 14:47:46
+Module: UserAdd
+array (
+  'LOGIN' => 'danileikoel',
+  'NAME' => '',
+  'LAST_NAME' => '',
+  'PASSWORD' => 'hVwRAJny26a04f6ea7f389c95ce3600bd3371a0f',
+  'CONFIRM_PASSWORD' => '5Cx8aXI8',
+  'EMAIL' => 'danileikoel@mail.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'ACTIVE' => 'Y',
+  'LID' => 's1',
+  'PERSONAL_PHONE' => '7965656',
+  'PERSONAL_ZIP' => '',
+  'PERSONAL_STREET' => '',
+  'PERSONAL_GENDER' => '',
+  'CHECKWORD' => '069dd4eff0e449ed8c3ab1e1c0b1a804',
+  '~CHECKWORD_TIME' => 'now()',
+  'ID' => 905,
+  'RESULT' => 905,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < SaleOrderAjax::registerAndLogIn < SaleOrderAjax::autoRegisterUser
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/components/bitrix/sale.order.ajax/class.php:1439
+	/home/h705111133/luckyroseclub.com/docs/bitrix/components/bitrix/sale.order.ajax/class.php:1538
+	/home/h705111133/luckyroseclub.com/docs/bitrix/components/bitrix/sale.order.ajax/class.php:3940
+----------

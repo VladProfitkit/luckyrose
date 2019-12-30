@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-12-11 09:05:33
+Module: UserAdd
+array (
+  'LOGIN' => 'Rafaelkag',
+  'NAME' => 'Rafaelkag',
+  'LAST_NAME' => 'RafaelkagGR',
+  'PASSWORD' => 'lypRh61%8qR',
+  'CHECKWORD' => '5e0a825428924870048c60f2f3afff94',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'lypRh61%8qR',
+  'EMAIL' => 'karabissd@bk.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '45.142.212.165',
+  'USER_HOST' => '45.142.212.165',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (karabissd@bk.ru) already exists.<br>User with login "Rafaelkag" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

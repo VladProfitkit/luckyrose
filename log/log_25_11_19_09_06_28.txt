@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-11-25 09:06:29
+Module: UserAdd
+array (
+  'LOGIN' => 'angelaivan',
+  'NAME' => 'angelaivan',
+  'LAST_NAME' => 'angelaivanLG',
+  'PASSWORD' => 'Sh674ggf6Fjkh',
+  'CHECKWORD' => '6b908aa5af32fa37c627acdaee57d0e2',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'Sh674ggf6Fjkh',
+  'EMAIL' => 'a@b1t.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '110.232.82.254',
+  'USER_HOST' => '110.232.82.254',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (a@b1t.ru) already exists.<br>User with login "angelaivan" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

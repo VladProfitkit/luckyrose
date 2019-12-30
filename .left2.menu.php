@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"New", 
+		"new/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Popular", 
+		"popular/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Sales", 
+		"sales/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Recommend", 
+		"recommend/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Discount", 
+		"discount/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-12-09 01:48:35
+Module: UserAdd
+array (
+  'LOGIN' => 'mebelpen',
+  'NAME' => 'mebelpen',
+  'LAST_NAME' => 'mebelpenTO',
+  'PASSWORD' => 'rdn@jx67Z3Q',
+  'CHECKWORD' => 'db8999ad9d11fd79b8d93290aabe8e56',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'rdn@jx67Z3Q',
+  'EMAIL' => 'mebelmsr@yandex.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '5.188.210.18',
+  'USER_HOST' => '5.188.210.18',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (mebelmsr@yandex.com) already exists.<br>User with login "mebelpen" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

@@ -1,0 +1,300 @@
+Host: luckyroseclub.com
+Date: 2019-12-22 01:28:55
+Module: UserAdd
+array (
+  'LOGIN' => 'Euniceslups',
+  'NAME' => 'Euniceslups',
+  'LAST_NAME' => 'EuniceslupsEC',
+  'PASSWORD' => 'S67vkSSW56d95a4b75fd8e01bd32f383791ee0f8',
+  'CHECKWORD' => '78dc99f4f1f83d67536981e0df8f8c95',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'vrgl2dI3$1J',
+  'EMAIL' => 'egkrasnodarcom@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '78.107.195.137',
+  'USER_HOST' => '0894465863.static.corbina.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 972,
+  'RESULT' => 972,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 03:43:20
+Module: UserAdd
+array (
+  'LOGIN' => 'KdldYyqpr',
+  'NAME' => 'KdldYyqpr',
+  'LAST_NAME' => 'KdldYyqpr',
+  'PASSWORD' => '1Xo$62pfdcP',
+  'CHECKWORD' => '5b0c0bb6764aac2a3c361a82a2c979e7',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '1Xo$62pfdcP',
+  'EMAIL' => 'krasavchik@world-games.online',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '176.110.134.2',
+  'USER_HOST' => '176.110.134.2',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (krasavchik@world-games.online) already exists.<br>User with login "KdldYyqpr" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 04:51:01
+Module: UserAdd
+array (
+  'LOGIN' => 'rinakalyagina',
+  'NAME' => 'rinakalyagina',
+  'LAST_NAME' => 'rinakalyaginaVG',
+  'PASSWORD' => 'jAq41H7v640c41da6f035f7627f02d647fcf1189',
+  'CHECKWORD' => '85ac3f34052a276009c533a4147a1798',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'a987456321a',
+  'EMAIL' => 'rinakalyagina@yandex.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '95.84.2.65',
+  'USER_HOST' => '95.84.2.65',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 973,
+  'RESULT' => 973,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 08:14:39
+Module: UserAdd
+array (
+  'LOGIN' => 'KdldYyqpr',
+  'NAME' => 'KdldYyqpr',
+  'LAST_NAME' => 'KdldYyqpr',
+  'PASSWORD' => '1Xo$62pfdcP',
+  'CHECKWORD' => 'bb473a040507bccbddc62a59dcf80acf',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '1Xo$62pfdcP',
+  'EMAIL' => 'krasavchik@world-games.online',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '176.110.134.2',
+  'USER_HOST' => '176.110.134.2',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (krasavchik@world-games.online) already exists.<br>User with login "KdldYyqpr" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 13:18:40
+Module: UserAdd
+array (
+  'LOGIN' => 'KdldYyqpr',
+  'NAME' => 'KdldYyqpr',
+  'LAST_NAME' => 'KdldYyqpr',
+  'PASSWORD' => '1Xo$62pfdcP',
+  'CHECKWORD' => '02ae5853d74e3c8fd5d796000f904ad1',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '1Xo$62pfdcP',
+  'EMAIL' => 'krasavchik@world-games.online',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '176.110.134.2',
+  'USER_HOST' => '176.110.134.2',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (krasavchik@world-games.online) already exists.<br>User with login "KdldYyqpr" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 17:59:11
+Module: UserAdd
+array (
+  'LOGIN' => 'KdldYyqpr',
+  'NAME' => 'KdldYyqpr',
+  'LAST_NAME' => 'KdldYyqpr',
+  'PASSWORD' => '1Xo$62pfdcP',
+  'CHECKWORD' => '8f4c8276f1fdee891f208ebb3d821758',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '1Xo$62pfdcP',
+  'EMAIL' => 'krasavchik@world-games.online',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '176.110.134.2',
+  'USER_HOST' => '176.110.134.2',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (krasavchik@world-games.online) already exists.<br>User with login "KdldYyqpr" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 18:06:35
+Module: UserAdd
+array (
+  'LOGIN' => 'SEDennis',
+  'NAME' => 'SEDennis',
+  'LAST_NAME' => 'SEDennisSV',
+  'PASSWORD' => '6BqDIWxC8e68c0e0c96f138e882ab3c18d852c3f',
+  'CHECKWORD' => '7ab7b31a799edcb63ffa6401b441fead',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '68s1qkkSzoQ',
+  'EMAIL' => 'facokkoko@mail.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '95.215.205.247',
+  'USER_HOST' => 'ds905535.had.yt',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 974,
+  'RESULT' => 974,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 19:29:53
+Module: UserAdd
+array (
+  'LOGIN' => 'piterDok',
+  'NAME' => 'piterDok',
+  'LAST_NAME' => 'piterDokVH',
+  'PASSWORD' => 'q9Ndw#v4r4E',
+  'CHECKWORD' => '793f39b5dba1147a0eb64f982403984e',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'q9Ndw#v4r4E',
+  'EMAIL' => 'pite.r.m.o.rg.ans.p.o.rt.sto.r.ew.orl.d.20.1.6.@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '188.165.232.202',
+  'USER_HOST' => '188-165-232-202.serverhub.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'Incorrect E-Mail<br>User with login "piterDok" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-22 23:13:38
+Module: UserAdd
+array (
+  'LOGIN' => 'KdldYyqpr',
+  'NAME' => 'KdldYyqpr',
+  'LAST_NAME' => 'KdldYyqpr',
+  'PASSWORD' => '1Xo$62pfdcP',
+  'CHECKWORD' => '0440dd22373b53339bf96248533caa0e',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '1Xo$62pfdcP',
+  'EMAIL' => 'krasavchik@world-games.online',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '176.110.134.2',
+  'USER_HOST' => '176.110.134.2',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (krasavchik@world-games.online) already exists.<br>User with login "KdldYyqpr" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

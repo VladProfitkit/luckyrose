@@ -1,0 +1,21 @@
+#main.color_white #subLeftMenu a:hover {
+    color: #d7a77c !important;
+}
+#footerLine.color_white .item .compare.active, #footerLine.color_white .item .wishlist.active, #footerLine.color_white .item .cart.active ,
+#footerLine.color_white .item .callback{
+    color: #fff !important;
+}
+#footerLine.color_white .item .compare:hover .mark{
+    color: #000000 !important;
+}
+#topHeader.color_theme #topService > li > a, #topHeader.color_theme .user-geo-position-label, #topHeader.color_theme .user-geo-position-value, #topHeader.color_theme .user-geo-position-value-link{
+    color: #000000 !important;
+}
+#topHeader.color_theme #topService > li > a{
+    color: #fff !important;
+}
+@media(max-width: 500px){
+    #topHeader.color_theme #topService > li > a{
+        color: #000 !important;
+    }
+}

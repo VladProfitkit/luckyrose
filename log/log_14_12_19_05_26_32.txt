@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-12-14 05:26:32
+Module: UserAdd
+array (
+  'LOGIN' => 'BarbaraRef',
+  'NAME' => 'BarbaraRef',
+  'LAST_NAME' => 'BarbaraRefIW',
+  'PASSWORD' => 'nb87!jV3avE',
+  'CHECKWORD' => '1340409920afbf3004f1e2823705b355',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'nb87!jV3avE',
+  'EMAIL' => 'anechka.samohin4@yandex.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '178.121.218.6',
+  'USER_HOST' => 'mm-6-218-121-178.mgts.dynamic.pppoe.byfly.by',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (anechka.samohin4@yandex.com) already exists.<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-11-20 06:10:14
+Module: UserAdd
+array (
+  'LOGIN' => 'rusporno',
+  'NAME' => 'rusporno',
+  'LAST_NAME' => 'ruspornoXC',
+  'PASSWORD' => 'Fhghj453jhD',
+  'CHECKWORD' => 'fee38a8ac4281ea87fcc330a32302ed9',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'Fhghj453jhD',
+  'EMAIL' => 'csile@bk.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '77.108.66.178',
+  'USER_HOST' => '77.108.66.178',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (csile@bk.ru) already exists.<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

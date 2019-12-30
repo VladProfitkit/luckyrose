@@ -1,0 +1,13 @@
+.items.productList{
+	margin-bottom: 24px;
+}
+
+.removeFromWishlist{
+	display: none;
+}
+
+@media (max-width: 360px){
+	#catalogLine {
+		display: block !important;
+	}
+}

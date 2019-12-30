@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-12-06 04:01:38
+Module: UserAdd
+array (
+  'LOGIN' => 'Dennisabrab',
+  'NAME' => 'Dennisabrab',
+  'LAST_NAME' => 'DennisabrabJG',
+  'PASSWORD' => 'kv$l2uEu94Y',
+  'CHECKWORD' => '0d9aede6d2c1226c4aa0284b0db3db34',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'kv$l2uEu94Y',
+  'EMAIL' => 'f.evgen708@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '188.163.109.153',
+  'USER_HOST' => '188-163-109-153.broadband.kyivstar.net',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'User with login "Dennisabrab" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

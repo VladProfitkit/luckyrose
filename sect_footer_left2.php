@@ -1,0 +1,1 @@
+<p>© Copyright Lucky Rose Club. All rights reserved ®.</p>

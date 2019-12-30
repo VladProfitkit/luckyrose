@@ -1,0 +1,34 @@
+Host: luckyroseclub.com
+Date: 2019-11-10 06:18:06
+Module: UserAdd
+array (
+  'LOGIN' => 'Darrylfak',
+  'NAME' => 'Darrylfak',
+  'LAST_NAME' => 'DarrylfakZZ',
+  'PASSWORD' => '0uIHleFY556a9e7d7387a48d9c9807d0483317f9',
+  'CHECKWORD' => 'd6f9384f72fd210666a4a79468a6072d',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '6u@x3Bs7waE',
+  'EMAIL' => 'netflixfree@mails.wf',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '158.69.121.179',
+  'USER_HOST' => 'ns523931.ip-158-69-121.net',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 898,
+  'RESULT' => 898,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

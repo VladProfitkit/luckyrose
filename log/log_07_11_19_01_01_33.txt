@@ -1,0 +1,33 @@
+Host: luckyroseclub.com
+Date: 2019-11-07 01:01:33
+Module: UserAdd
+array (
+  'LOGIN' => 'AsferaHet',
+  'NAME' => 'AsferaHet',
+  'LAST_NAME' => 'AsferaHet',
+  'PASSWORD' => '4a5s&Fdhh4D',
+  'CHECKWORD' => 'b5e836f046e177340a3176908ccc3762',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '4a5s&Fdhh4D',
+  'EMAIL' => 'beal1970@bk.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '149.202.86.18',
+  'USER_HOST' => '149-202-86-18.serverhub.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'A user with this e-mail address (beal1970@bk.ru) already exists.<br>User with login "AsferaHet" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

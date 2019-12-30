@@ -1,0 +1,203 @@
+Host: luckyroseclub.com
+Date: 2019-12-25 03:26:26
+Module: UserAdd
+array (
+  'LOGIN' => 'Viktor Bregov',
+  'NAME' => 'Viktor Bregov',
+  'LAST_NAME' => 'Viktor BregovYP',
+  'PASSWORD' => 'tuYWGrO078e92d4dd8fa92884eaaa6e1ef63cb2b',
+  'CHECKWORD' => '305deb856a1fc35335c65ed1ed6092fb',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '31h5Cxxyq#L',
+  'EMAIL' => 'viktor.bregov@yandex.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '213.242.6.61',
+  'USER_HOST' => 'isg-brass5-213-242-6-61.ivnet.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 979,
+  'RESULT' => 979,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-25 04:48:56
+Module: UserAdd
+array (
+  'LOGIN' => 'JacobGow',
+  'NAME' => 'JacobGow',
+  'LAST_NAME' => 'JacobGowBI',
+  'PASSWORD' => 'fPXxt2FCf6843373e16421568e4954c6ec2d08c6',
+  'CHECKWORD' => '58be1dce85a6e4c42382aa2b91cd509a',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'jaf67!iO5wT',
+  'EMAIL' => 'maribelemily5390.5@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '91.206.15.93',
+  'USER_HOST' => '91.206.15.93',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 980,
+  'RESULT' => 980,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-25 12:33:25
+Module: UserAdd
+array (
+  'LOGIN' => 'AnthonySkers',
+  'NAME' => 'AnthonySkers',
+  'LAST_NAME' => 'AnthonySkersND',
+  'PASSWORD' => 'lVbKnU5V5325ca468b329d84d8a895a6554e7e69',
+  'CHECKWORD' => '621447a31bbfb549c6b3b1d049692b9a',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 't2Ht^b59xfF',
+  'EMAIL' => 'anthony.derrick.274669646@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '5.135.181.83',
+  'USER_HOST' => 'ns3285795.ip-5-135-181.eu',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 981,
+  'RESULT' => 981,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: www.luckyroseclub.com
+Date: 2019-12-25 14:09:56
+Module: UserAdd
+array (
+  'LOGIN' => 'ghusil',
+  'NAME' => 'ghusil',
+  'LAST_NAME' => 'ghusilKC',
+  'PASSWORD' => '64zlf2bjbfc4e5194d17a38973f59b59553e8586',
+  'CHECKWORD' => '2bfca64d51388f1dfccd48011b3c33d5',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'Up41r6c^vwF',
+  'EMAIL' => 'mila.kozhevnikova.10@mail.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '80.95.44.248',
+  'USER_HOST' => 'host-80-95-44-248.dsl.sura.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 982,
+  'RESULT' => 982,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: www.luckyroseclub.com
+Date: 2019-12-25 15:55:02
+Module: UserAdd
+array (
+  'LOGIN' => 'RickieBlamb',
+  'NAME' => 'RickieBlamb',
+  'LAST_NAME' => 'RickieBlambTT',
+  'PASSWORD' => 'wcwNqHOy706113619c00e4e08674865b6220d3fd',
+  'CHECKWORD' => '2a810218f523a2e70f5a9cfbb0a55daa',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '8q4h6!nqReD',
+  'EMAIL' => 'Prayerqueuevyll@josephay905s.changeip.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '91.105.152.168',
+  'USER_HOST' => 'host-91-105-152-168.bbcustomer.zsttk.net',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 983,
+  'RESULT' => 983,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
+Host: luckyroseclub.com
+Date: 2019-12-25 23:47:57
+Module: UserAdd
+array (
+  'LOGIN' => 'piterDok',
+  'NAME' => 'piterDok',
+  'LAST_NAME' => 'piterDokVH',
+  'PASSWORD' => 'q9Ndw#v4r4E',
+  'CHECKWORD' => '09d0660933917fb25d331c3e62aa47da',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'q9Ndw#v4r4E',
+  'EMAIL' => 'p.itermo.rg.a.nspo.rts.t.or.ewor.ld.2.0.16@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '188.165.232.202',
+  'USER_HOST' => '188-165-232-202.serverhub.ru',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'RESULT_MESSAGE' => 'User with login "piterDok" already exists<br>',
+  'RESULT' => false,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

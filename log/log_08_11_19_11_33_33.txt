@@ -1,0 +1,34 @@
+Host: luckyroseclub.com
+Date: 2019-11-08 11:33:33
+Module: UserAdd
+array (
+  'LOGIN' => 'WodipiiAdher',
+  'NAME' => 'WodipiiAdher',
+  'LAST_NAME' => 'WodipiiAdher',
+  'PASSWORD' => 'a9EosgRF34828ef6dcc9a9976fc9e133d433b7b2',
+  'CHECKWORD' => '49540a6abe45aac9ebc4b6682eca8a4f',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => '4feao&3Oh4B',
+  'EMAIL' => 'bitrixnewmod@list.ru',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '83.149.44.1',
+  'USER_HOST' => '83.149.44.1',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 891,
+  'RESULT' => 891,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

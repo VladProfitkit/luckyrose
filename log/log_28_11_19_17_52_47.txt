@@ -1,0 +1,34 @@
+Host: luckyroseclub.com
+Date: 2019-11-28 17:52:47
+Module: UserAdd
+array (
+  'LOGIN' => 'Andreanuh',
+  'NAME' => 'Andreanuh',
+  'LAST_NAME' => 'TelegramnuhZX',
+  'PASSWORD' => 'pmbjrbOU816f45e45290383e76906c715d8e4aa9',
+  'CHECKWORD' => '1b04d291a306b8ae291e3dcb1b31a93b',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'wwe!u933TqB',
+  'EMAIL' => 'mikavororo@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '141.98.103.188',
+  'USER_HOST' => '141.98.103.188',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 937,
+  'RESULT' => 937,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------

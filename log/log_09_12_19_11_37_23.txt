@@ -1,0 +1,34 @@
+Host: luckyroseclub.com
+Date: 2019-12-09 11:37:23
+Module: UserAdd
+array (
+  'LOGIN' => 'EdwardLem',
+  'NAME' => 'EdwardLem',
+  'LAST_NAME' => 'EdwardLemEA',
+  'PASSWORD' => 'X9GwZ1gT8bad737d08e908ba12b3f349dc93e72d',
+  'CHECKWORD' => '919289571f2a104c2e0f9004304664f3',
+  '~CHECKWORD_TIME' => 'now()',
+  'CONFIRM_PASSWORD' => 'uB@z3qgb97X',
+  'EMAIL' => 'alterhistory37@gmail.com',
+  'ACTIVE' => 'Y',
+  'CONFIRM_CODE' => '',
+  'SITE_ID' => 's1',
+  'LANGUAGE_ID' => 'en',
+  'USER_IP' => '188.163.97.83',
+  'USER_HOST' => '188-163-97-83.broadband.kyivstar.net',
+  'GROUP_ID' => 
+  array (
+    0 => '6',
+  ),
+  'LID' => 's1',
+  'PERSONAL_GENDER' => '',
+  'ID' => 953,
+  'RESULT' => 953,
+)
+    UserEvent::OnAfterUserAddHandler < ExecuteModuleEventEx < CUser::Add < CAllUser::Register < require_once
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/module.php:475
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/mysql/user.php:114
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/classes/general/user.php:1482
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include.php:431
+	/home/h705111133/luckyroseclub.com/docs/bitrix/modules/main/include/prolog_before.php:14
+----------
