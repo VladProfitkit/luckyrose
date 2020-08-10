@@ -1,6 +1,6 @@
 <?
-$sSectionName = "Profile";
-$arDirProperties = Array(
-
+$sSectionName = "Профиль пользователя";
+$arDirProperties = array(
+"NAME"=>"NHFNFNF"
 );
 ?>

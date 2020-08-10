@@ -1,147 +1,144 @@
-<?define("INDEX_PAGE", "Y");?>
-<?define("MAIN_PAGE", true);?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Lucky Rose Club");?>
-	<div id="promoBlock">
-	<?$APPLICATION->IncludeComponent("dresscode:slider", "promoSlider", array(
-		"IBLOCK_TYPE" => "slider",
-			"IBLOCK_ID" => "2",
-			"CACHE_TYPE" => "Y",
-			"CACHE_TIME" => "3600000",
-			"PICTURE_WIDTH" => "1181",
-			"PICTURE_HEIGHT" => "555",
-			"COMPONENT_TEMPLATE" => "promoSlider",
-			"COMPOSITE_FRAME_MODE" => "A",
-			"COMPOSITE_FRAME_TYPE" => "AUTO"
-		),
-		false,
-		array(
+$APPLICATION->SetPageProperty('NOT_SHOW_NAV_CHAIN', 'Y');
+$APPLICATION->SetTitle("Lucky Rose Club");
+$APPLICATION->SetPageProperty('title', 'Lucky Rose Club');
+
+$tuning = \Redsign\Tuning\TuningCore::getInstance();
+$instanceOptionManager = $tuning->getInstanceOptionMananger();
+$showblockFichi = $instanceOptionManager->get('SWITCH_FICHI');
+$showblockNewsAndSection = $instanceOptionManager->get('SWITCH_NEWS_AND_SECTIONS');
+$showblockBestProducts = $instanceOptionManager->get('SWITCH_BEST_PRODUCTS');
+$showblockGallery = $instanceOptionManager->get('SWITCH_GALLERY');
+$showblockBrands = $instanceOptionManager->get('SWITCH_BRANDS');
+$showblockShops = $instanceOptionManager->get('SWITCH_SHOPS');
+?>
+
+<!-- banner -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/banner.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
 		"ACTIVE_COMPONENT" => "Y"
-		)
-	);?>
+	)
+);?>
+<!-- /banner -->
 
-	<?$APPLICATION->IncludeComponent(
-		"dresscode:special.product", 
-		".default", 
-		array(
-			"CACHE_TYPE" => "Y",
-			"CACHE_TIME" => "3600000",
-			"PROP_NAME" => "PRODUCT_DAY",
-			"IBLOCK_TYPE" => "catalog",
-			"IBLOCK_ID" => "10",
-			"PICTURE_WIDTH" => "200",
-			"PICTURE_HEIGHT" => "180",
-			"ELEMENTS_COUNT" => "10",
-			"SORT_PROPERTY_NAME" => "SORT",
-			"SORT_VALUE" => "ASC",
-			"COMPONENT_TEMPLATE" => ".default",
-			"HIDE_NOT_AVAILABLE" => "N",
-			"HIDE_MEASURES" => "N"
-		),
-		false,
-		array(
-			"ACTIVE_COMPONENT" => "Y"
-		)
-	);?>
-	</div>
+<!-- banner -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/fichi.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
+		"ACTIVE_COMPONENT" => ($showblockFichi == 'Y' ? 'Y' : 'N')
+	)
+);?>
+<!-- /banner -->
 
-	<?$APPLICATION->IncludeComponent(
-		"dresscode:offers.product", 
-		".default", 
-		array(
-			"CACHE_TYPE" => "Y",
-			"CACHE_TIME" => "3600000",
-			"PROP_NAME" => "OFFERS",
-			"IBLOCK_TYPE" => "catalog",
-			"IBLOCK_ID" => "10",
-			"PICTURE_WIDTH" => "770",
-			"PICTURE_HEIGHT" => "425",
-			"PROP_VALUE" => array(
-				0 => "_9",
-				1 => "_10",
-				2 => "_11",
-				3 => "_12",
-				4 => "_50",
-			),
-			"ELEMENTS_COUNT" => "10",
-			"SORT_PROPERTY_NAME" => "SORT",
-			"SORT_VALUE" => "ASC",
-			"COMPONENT_TEMPLATE" => ".default",
-			"PRODUCT_PRICE_CODE" => array(
-				0 => "BASE",
-			),
-			"HIDE_NOT_AVAILABLE" => "N",
-			"HIDE_MEASURES" => "N",
-			"COMPOSITE_FRAME_MODE" => "A",
-			"COMPOSITE_FRAME_TYPE" => "AUTO"
-		),
-		false,
-		array(
-			"ACTIVE_COMPONENT" => "Y"
-		)
-	);?>
+<!-- section.list -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/section.list.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
+		"ACTIVE_COMPONENT" => ($showblockNewsAndSection == 'Y' ? 'Y' : 'N')
+	)
+);?>
+<!-- /section.list -->
 
+<!-- news -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/news.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
+		"ACTIVE_COMPONENT" => ($showblockNewsNadSection == 'Y' ? 'Y' : 'N')
+	)
+);?>
+<!-- /news -->
 
-	<?$APPLICATION->IncludeComponent(
-		"dresscode:pop.section", 
-		".default", 
-		array(
-			"CACHE_TYPE" => "Y",
-			"CACHE_TIME" => "3600000",
-			"PROP_NAME" => "UF_POPULAR",
-			"IBLOCK_TYPE" => "catalog",
-			"IBLOCK_ID" => "10",
-			"PICTURE_WIDTH" => "120",
-			"PICTURE_HEIGHT" => "100",
-			"PROP_VALUE" => "Y",
-			"ELEMENTS_COUNT" => "10",
-			"SORT_PROPERTY_NAME" => "7",
-			"SORT_VALUE" => "DESC",
-			"SELECT_FIELDS" => array(
-				0 => "NAME",
-				1 => "SECTION_PAGE_URL",
-				2 => "DETAIL_PICTURE",
-				3 => "UF_IMAGES",
-				4 => "UF_MARKER",
-				5 => "",
-			),
-			"POP_LAST_ELEMENT" => "Y",
-			"COMPONENT_TEMPLATE" => ".default"
-		),
-		false,
-		array(
-			"ACTIVE_COMPONENT" => "Y"
-		)
-	);?>
-	
-	<?$APPLICATION->IncludeComponent(
-		"dresscode:slider", 
-		"middle", 
-		array(
-			"IBLOCK_TYPE" => "slider",
-			"IBLOCK_ID" => "3",
-			"CACHE_TYPE" => "Y",
-			"CACHE_TIME" => "3600000",
-			"PICTURE_WIDTH" => "1476",
-			"PICTURE_HEIGHT" => "202"
-		),
-		false
-	);?> 	
-	
-	<?$APPLICATION->IncludeComponent(
-		"bitrix:main.include", 
-		".default", 
-		array(
-			"COMPONENT_TEMPLATE" => ".default",
-			"AREA_FILE_SHOW" => "sect",
-			"AREA_FILE_SUFFIX" => "simplyText",
-			"AREA_FILE_RECURSIVE" => "Y",
-			"EDIT_TEMPLATE" => ""
-		),
-		false
-	);?>
+<!-- best.offers -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/best.offers.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
+		"ACTIVE_COMPONENT" => ($showblockBestProducts == 'Y' ? 'Y' : 'N')
+	)
+);?>
+<!-- /best.offers -->
 
-<!-- дизайн создание seo: TOP-iNFO d.o.o. +7 931 273 63 31 http://top-info.biz top.info.croatia@gmail.com -->
-<!-- не удалять эту строчку - та, что вверху :) -->
-<!-- когда сломается - чинить не будем -->
+<!-- brands -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/gallery.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
+		"ACTIVE_COMPONENT" => ($showblockGallery == 'Y' ? 'Y' : 'N')
+	)
+);?>
+<!-- /brands -->
+
+<!-- brands -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/brands.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
+		"ACTIVE_COMPONENT" => ($showblockBrands == 'Y' ? 'Y' : 'N')
+	)
+);?>
+<!-- /brands -->
+
+<!-- shops -->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/index/shops.php",
+		"EDIT_TEMPLATE" => ""
+	),
+	false,
+	array(
+		"ACTIVE_COMPONENT" => ($showblockShops == 'Y' ? 'Y' : 'N')
+	)
+);?>
+<!-- /shops -->
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

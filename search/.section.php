@@ -1,6 +1,3 @@
 <?
-$sSectionName = "Search page";
-$arDirProperties = array(
-
-);
+$sSectionName = "Поиск";
 ?>

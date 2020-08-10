@@ -1,28 +1,40 @@
 <?
 $arUrlRewrite = array(
 	array(
+		"CONDITION" => "#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#",
+		"RULE" => "alias=\$1",
+		"ID" => "",
+		"PATH" => "/desktop_app/router.php",
+	),
+	array(
 		"CONDITION" => "#^/bitrix/services/ymarket/#",
 		"RULE" => "",
 		"ID" => "",
 		"PATH" => "/bitrix/services/ymarket/index.php",
 	),
 	array(
-		"CONDITION" => "#^/personal/order/#",
+		"CONDITION" => "#^/personal/delivery/#",
 		"RULE" => "",
-		"ID" => "bitrix:sale.personal.order",
-		"PATH" => "/personal/order/index.php",
+		"ID" => "bitrix:sale.personal.profile",
+		"PATH" => "/personal/delivery/index.php",
 	),
 	array(
-		"CONDITION" => "#^/collection/#",
+		"CONDITION" => "#^/online/(/?)([^/]*)#",
 		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/collection/index.php",
+		"ID" => "",
+		"PATH" => "/desktop_app/router.php",
 	),
 	array(
-		"CONDITION" => "#^/services/#",
+		"CONDITION" => "#^/stssync/calendar/#",
 		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/services/index.php",
+		"ID" => "bitrix:stssync.server",
+		"PATH" => "/bitrix/services/stssync/calendar/index.php",
+	),
+	array(
+		"CONDITION" => "#^/personal/#",
+		"RULE" => "",
+		"ID" => "bitrix:sale.personal.section",
+		"PATH" => "/personal/index.php",
 	),
 	array(
 		"CONDITION" => "#^/catalog/#",
@@ -31,34 +43,16 @@ $arUrlRewrite = array(
 		"PATH" => "/catalog/index.php",
 	),
 	array(
+		"CONDITION" => "#^/action/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/action/index.php",
+	),
+	array(
 		"CONDITION" => "#^/brands/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/brands/index.php",
-	),
-	array(
-		"CONDITION" => "#^/stores/#",
-		"RULE" => "",
-		"ID" => "bitrix:catalog.store",
-		"PATH" => "/stores/index.php",
-	),
-	array(
-		"CONDITION" => "#^/survey/#",
-		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/survey/index.php",
-	),
-	array(
-		"CONDITION" => "#^/store/#",
-		"RULE" => "",
-		"ID" => "bitrix:catalog.store",
-		"PATH" => "/store/index.php",
-	),
-	array(
-		"CONDITION" => "#^/stock/#",
-		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/stock/index.php",
 	),
 	array(
 		"CONDITION" => "#^/news/#",

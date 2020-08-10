@@ -1,6 +1,6 @@
 <?
-$sSectionName = "Delivery & Payment ";
+$sSectionName = "Оплата и Доставка";
 $arDirProperties = Array(
-   "title" => "Payment: PayPal, Visa, MasterCard and fast worldwide delivery"
+
 );
 ?>

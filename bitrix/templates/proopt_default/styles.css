@@ -1,0 +1,22 @@
+.ajaxpages{
+    display: none;
+}
+
+.footer .line1 .contacts .feedback,
+.gopro-banners__text1,
+.header-basket__descr,
+.rsfavorite .descr{
+    color: black;
+}
+
+.authinhead .svg-icon{
+    fill: black;
+}
+
+@media (max-width: 1000px){
+    /*body.adaptive .view_showcase .js-element {*/
+    .view_showcase .js-element {
+        height: 331px;
+    }
+}
+

@@ -1,29 +1,71 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Personal details", 
+		"Общая информация", 
 		"/personal/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Profile", 
-		"/personal/profile/", 
+		"Персональная информация", 
+		"/personal/private/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Order history", 
-		"/personal/order/", 
+		"Личный счет", 
+		"/personal/account/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Basket", 
+		"Отсутствующие товары", 
+		"/personal/subscribe/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Просмотренные товары", 
+		"/personal/viewed/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Избранные товары", 
+		"/personal/favorite/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Подписка на рассылки", 
+		"/personal/subscriptions/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Корзина", 
 		"/personal/cart/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Профили доставки", 
+		"/personal/profiles/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"История заказов", 
+		"/personal/orders/", 
 		Array(), 
 		Array(), 
 		"" 

@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Результат оплаты");
-?>paypal.me/luckyroseclubcom<?$APPLICATION->IncludeComponent(
+?>
+
+<?$APPLICATION->IncludeComponent(
 	"bitrix:sale.order.payment.receive",
 	"",
 	Array(
@@ -9,4 +11,6 @@ $APPLICATION->SetTitle("Результат оплаты");
 		"PERSON_TYPE_ID" => ""
 	),
 false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

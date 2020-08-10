@@ -1,0 +1,30 @@
+#accordion h2{
+    font-weight: bold;
+}
+#accordion h2:hover{
+    cursor: pointer;
+}
+#accordion h3:hover{
+    cursor: pointer;
+}
+
+body #rs_easycart .rsec_headers a.rsec_online, body #rs_easycart .rsec_headers span.rsec_color,
+body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
+    color: #ffffff;
+}
+
+body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
+    fill: #ffffff;
+}
+
+#distr_form input{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+}
+
+#distr_form label{
+    font-size: 16px;
+}

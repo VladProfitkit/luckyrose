@@ -1,14 +1,13 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Discount");
-?><h2><b>Discount</b></h2>
-<p>Since we appreciate our regular customers, we are very pleased to offer a discount. To receive the discount, you must register on our website.</p>
-<strong><p><figure>Regular customer 1	</figure></p>
-<p>When your orders accumulate to a total cost of $80, you will receive 5% off. 
-<p><figure>Regular customer 2	</figure></p>
-<p>When your orders accumulate to a total cost of $125, you will receive 10% off.
-<p><figure>Regular customer 3</figure></p>
-	<p>When your orders accumulate to a total cost of $170, you will receive 15% off.</p></strong>
+$APPLICATION->SetTitle("Скидки");
+?><h2><b>Накопительная система скидок для постоянных клиентов</b></h2>
+<strong><p><figure>Постоянный клиент 1	</figure></p>
+<p>5% - статус присваевается при покупке более чем на 5 000 рублей 
+<p><figure>Постоянный клиент 2	</figure></p>
+<p>10% - статус присваевается при покупке более чем на 10 000 рублей.
+<p><figure>Постоянный клиент 3</figure></p>
+	<p>15% - статус присваевается при покупке более чем на 15 000 рублей.</p></strong>
 <p><br>
 
-	<p>If you want to become a part of the team Lucky Rose Club or obtain more discounts, you should submit a feedback form <a href="http://www.luckyroseclub.com//wholesale-buyers/">Form For Distributor</a>, presented below and our manager will be in contact with you shortly.  Thanks for being a part of our community.<a><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+	<p>Если Вас интересуют оптовые скидки или Вы хотите стать Дистрибьютором, то заполните, пожалуйста, <a href="http://www.luckyroseclub.ru//wholesale-buyers">ФОРМУ ДЛЯ ОПТОВИКОВ</a><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

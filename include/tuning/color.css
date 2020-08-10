@@ -1,0 +1,545 @@
+/** -- hard color theme -- **/
+/* color scheme */
+/* main */
+/* buttons */
+/* forms */
+/**************************************
+label_description_start
+**************************************/
+.nothinSelectorJustColorTheme {
+  /* color1 - $color1 - GOPRO_QQ251f1fGOPRO_ZZ */
+  color: #251f1f;
+  /* darken color1 - $btn1-bg-color-hover - GOPRO_QQ090808GOPRO_ZZ */
+  color: #090808;
+  /* color2 - $color2 - GOPRO_QQ899CC7GOPRO_ZZ */
+  color: #899CC7;
+  /* darken color2 - $btn3-bg-color-hover - GOPRO_QQ667fb7GOPRO_ZZ */
+  color: #667fb7; }
+
+/**************************************
+label_description_finish
+**************************************/
+.body .tline {
+  background-color: #251f1f; }
+
+.body .header-basket .svg-icon {
+  fill: #251f1f; }
+
+.body .b-mmenu.navbar-default {
+  background-color: #251f1f; }
+  .body .b-mmenu.navbar-default .b-mmenu__toggle,
+  .body .b-mmenu.navbar-default .navbar-nav > li.lvl1 > a,
+  .body .b-mmenu.navbar-default .navbar-nav > li.other > a {
+    color: #fff;
+    background-color: #251f1f; }
+  .body .b-mmenu.navbar-default .search-bar .enter.svg-icon:hover,
+  .body .b-mmenu.navbar-default .b-mmenu__toggle:hover,
+  .body .b-mmenu.navbar-default .navbar-nav > li.lvl1:hover > a,
+  .body .b-mmenu.navbar-default .navbar-nav > li.lvl1 > a:hover,
+  .body .b-mmenu.navbar-default .navbar-nav .dropdown-menu > li:hover > a,
+  .body .b-mmenu.navbar-default .navbar-nav .dropdown-menu > li > a:hover,
+  .body .b-mmenu.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .body .b-mmenu.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .body .b-mmenu.navbar-default .navbar-nav > .open > a:focus,
+  .body .b-mmenu.navbar-default .navbar-nav > .open > a:hover,
+  .body .b-mmenu.navbar-default .navbar-nav li:hover > a {
+    color: #fff;
+    background-color: #090808; }
+  .body .b-mmenu.navbar-default .dropdown-menu {
+    border-color: #090808; }
+  .body .b-mmenu.navbar-default .searchinhead {
+    border-color: #251f1f; }
+    .body .b-mmenu.navbar-default .searchinhead .enter:hover .svg-icon {
+      fill: #090808; }
+
+.body .gopro-banners__text1.product:after {
+  background-color: #251f1f; }
+
+.body .gopro-banners__text2 {
+  color: #251f1f; }
+
+.body .owl-dots .owl-dot:hover, .body .owl-dots .owl-dot.active:hover {
+  background-color: #090808; }
+
+.body .owl-dots .owl-dot.active {
+  background-color: #251f1f; }
+
+@media (max-width: 768px) {
+  .body .b-mmenu.navbar-default .dropdown-menu > li > a {
+    color: #fff;
+    background-color: #251f1f; } }
+
+body .title-search-result {
+  border-color: #251f1f; }
+  body .title-search-result .stitle .title {
+    color: #251f1f; }
+
+.body .btn1,
+.body .btn2, .body .btn-default,
+.body .btn3,
+.footer .btn1,
+.footer .btn2,
+.footer .btn-default,
+.footer .btn3,
+.fancybox-container .btn1,
+.fancybox-container .btn2,
+.fancybox-container .btn-default,
+.fancybox-container .btn3,
+.popup-window .btn1,
+.popup-window .btn2,
+.popup-window .btn-default,
+.popup-window .btn3,
+.rsgppopup .btn1,
+.rsgppopup .btn2,
+.rsgppopup .btn-default,
+.rsgppopup .btn3,
+.rs_easycart .btn1,
+.rs_easycart .btn2,
+.rs_easycart .btn-default,
+.rs_easycart .btn3 {
+  display: inline-block;
+  padding: 5px 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.body .btn1,
+.footer .btn1,
+.fancybox-container .btn1,
+.popup-window .btn1,
+.rsgppopup .btn1,
+.rs_easycart .btn1 {
+  color: #fff;
+  background-color: #251f1f; }
+  .body .btn1:hover,
+  .footer .btn1:hover,
+  .fancybox-container .btn1:hover,
+  .popup-window .btn1:hover,
+  .rsgppopup .btn1:hover,
+  .rs_easycart .btn1:hover {
+    color: #fff;
+    background-color: #090808; }
+
+.body .btn2, .body .btn-default,
+.footer .btn2,
+.footer .btn-default,
+.fancybox-container .btn2,
+.fancybox-container .btn-default,
+.popup-window .btn2,
+.popup-window .btn-default,
+.rsgppopup .btn2,
+.rsgppopup .btn-default,
+.rs_easycart .btn2,
+.rs_easycart .btn-default {
+  color: #fff;
+  background-color: #f5b383; }
+  .body .btn2:hover, .body .btn-default:hover,
+  .footer .btn2:hover,
+  .footer .btn-default:hover,
+  .fancybox-container .btn2:hover,
+  .fancybox-container .btn-default:hover,
+  .popup-window .btn2:hover,
+  .popup-window .btn-default:hover,
+  .rsgppopup .btn2:hover,
+  .rsgppopup .btn-default:hover,
+  .rs_easycart .btn2:hover,
+  .rs_easycart .btn-default:hover {
+    color: #fff;
+    background-color: #f19654; }
+
+.body .btn3,
+.footer .btn3,
+.fancybox-container .btn3,
+.popup-window .btn3,
+.rsgppopup .btn3,
+.rs_easycart .btn3 {
+  color: #fff;
+  background-color: #899CC7; }
+  .body .btn3:hover,
+  .footer .btn3:hover,
+  .fancybox-container .btn3:hover,
+  .popup-window .btn3:hover,
+  .rsgppopup .btn3:hover,
+  .rs_easycart .btn3:hover {
+    color: #fff;
+    background-color: #667fb7; }
+
+.body input[type="text"],
+.body input[type="password"],
+.body textarea,
+.body select,
+.footer input[type="text"],
+.footer input[type="password"],
+.footer textarea,
+.footer select,
+.fancybox-container input[type="text"],
+.fancybox-container input[type="password"],
+.fancybox-container textarea,
+.fancybox-container select,
+.popup-window input[type="text"],
+.popup-window input[type="password"],
+.popup-window textarea,
+.popup-window select,
+.rsgppopup input[type="text"],
+.rsgppopup input[type="password"],
+.rsgppopup textarea,
+.rsgppopup select,
+.rs_easycart input[type="text"],
+.rs_easycart input[type="password"],
+.rs_easycart textarea,
+.rs_easycart select,
+.gopro-subscribe-window input[type="text"],
+.gopro-subscribe-window input[type="password"],
+.gopro-subscribe-window textarea,
+.gopro-subscribe-window select {
+  border-color: #ebebeb; }
+  .body input[type="text"]:focus,
+  .body input[type="password"]:focus,
+  .body textarea:focus,
+  .body select:focus,
+  .footer input[type="text"]:focus,
+  .footer input[type="password"]:focus,
+  .footer textarea:focus,
+  .footer select:focus,
+  .fancybox-container input[type="text"]:focus,
+  .fancybox-container input[type="password"]:focus,
+  .fancybox-container textarea:focus,
+  .fancybox-container select:focus,
+  .popup-window input[type="text"]:focus,
+  .popup-window input[type="password"]:focus,
+  .popup-window textarea:focus,
+  .popup-window select:focus,
+  .rsgppopup input[type="text"]:focus,
+  .rsgppopup input[type="password"]:focus,
+  .rsgppopup textarea:focus,
+  .rsgppopup select:focus,
+  .rs_easycart input[type="text"]:focus,
+  .rs_easycart input[type="password"]:focus,
+  .rs_easycart textarea:focus,
+  .rs_easycart select:focus,
+  .gopro-subscribe-window input[type="text"]:focus,
+  .gopro-subscribe-window input[type="password"]:focus,
+  .gopro-subscribe-window textarea:focus,
+  .gopro-subscribe-window select:focus {
+    border-color: #251f1f; }
+
+.body .bx-sls .dropdown-block,
+.body .bx-slst .dropdown-block,
+.footer .bx-sls .dropdown-block,
+.footer .bx-slst .dropdown-block,
+.fancybox-container .bx-sls .dropdown-block,
+.fancybox-container .bx-slst .dropdown-block,
+.popup-window .bx-sls .dropdown-block,
+.popup-window .bx-slst .dropdown-block,
+.rsgppopup .bx-sls .dropdown-block,
+.rsgppopup .bx-slst .dropdown-block,
+.rs_easycart .bx-sls .dropdown-block,
+.rs_easycart .bx-slst .dropdown-block,
+.gopro-subscribe-window .bx-sls .dropdown-block,
+.gopro-subscribe-window .bx-slst .dropdown-block {
+  border-color: 1px solid #ebebeb; }
+  .body .bx-sls .dropdown-block.focus,
+  .body .bx-slst .dropdown-block.focus,
+  .footer .bx-sls .dropdown-block.focus,
+  .footer .bx-slst .dropdown-block.focus,
+  .fancybox-container .bx-sls .dropdown-block.focus,
+  .fancybox-container .bx-slst .dropdown-block.focus,
+  .popup-window .bx-sls .dropdown-block.focus,
+  .popup-window .bx-slst .dropdown-block.focus,
+  .rsgppopup .bx-sls .dropdown-block.focus,
+  .rsgppopup .bx-slst .dropdown-block.focus,
+  .rs_easycart .bx-sls .dropdown-block.focus,
+  .rs_easycart .bx-slst .dropdown-block.focus,
+  .gopro-subscribe-window .bx-sls .dropdown-block.focus,
+  .gopro-subscribe-window .bx-slst .dropdown-block.focus {
+    border-color: #251f1f; }
+
+.body [type="checkbox"]:checked + label:after,
+.body a.checkbox.in > label:after,
+.footer [type="checkbox"]:checked + label:after,
+.footer a.checkbox.in > label:after,
+.fancybox-container [type="checkbox"]:checked + label:after,
+.fancybox-container a.checkbox.in > label:after,
+.popup-window [type="checkbox"]:checked + label:after,
+.popup-window a.checkbox.in > label:after,
+.rsgppopup [type="checkbox"]:checked + label:after,
+.rsgppopup a.checkbox.in > label:after,
+.rs_easycart [type="checkbox"]:checked + label:after,
+.rs_easycart a.checkbox.in > label:after,
+.gopro-subscribe-window [type="checkbox"]:checked + label:after,
+.gopro-subscribe-window a.checkbox.in > label:after {
+  border-color: #251f1f;
+  background-color: #251f1f; }
+
+.body [type="radio"]:checked + label:before,
+.body [type="radio"]:checked + label:after,
+.footer [type="radio"]:checked + label:before,
+.footer [type="radio"]:checked + label:after,
+.fancybox-container [type="radio"]:checked + label:before,
+.fancybox-container [type="radio"]:checked + label:after,
+.popup-window [type="radio"]:checked + label:before,
+.popup-window [type="radio"]:checked + label:after,
+.rsgppopup [type="radio"]:checked + label:before,
+.rsgppopup [type="radio"]:checked + label:after,
+.rs_easycart [type="radio"]:checked + label:before,
+.rs_easycart [type="radio"]:checked + label:after,
+.gopro-subscribe-window [type="radio"]:checked + label:before,
+.gopro-subscribe-window [type="radio"]:checked + label:after {
+  border-color: #251f1f; }
+
+.body [type="radio"]:checked + label:after,
+.footer [type="radio"]:checked + label:after,
+.fancybox-container [type="radio"]:checked + label:after,
+.popup-window [type="radio"]:checked + label:after,
+.rsgppopup [type="radio"]:checked + label:after,
+.rs_easycart [type="radio"]:checked + label:after,
+.gopro-subscribe-window [type="radio"]:checked + label:after {
+  background-color: #251f1f; }
+
+/* catalog.sorter */
+.catalogsorter .template a.selected,
+.catalogsorter .shortsort a.selected {
+  color: #fff;
+  background-color: #251f1f; }
+
+.catalogsorter .template a:hover,
+.catalogsorter .shortsort a:hover {
+  color: #fff;
+  background-color: #090808; }
+
+.view_showcase .prices .prev:hover .svg-icon,
+.view_showcase .prices .next:hover .svg-icon,
+.rsgppopup .prices .prev:hover .svg-icon,
+.rsgppopup .prices .next:hover .svg-icon {
+  fill: #251f1f; }
+
+/* catalog.element */
+.detailtabs .headers a.selected {
+  color: #fff;
+  background-color: #251f1f; }
+
+.detailtabs .headers a:hover {
+  color: #fff;
+  background-color: #090808; }
+
+.product-delivery {
+  border-color: #251f1f; }
+
+/* personal.order.list */
+.orderlist .item:hover {
+  border-color: #251f1f; }
+
+.orderlist .switch a.selected {
+  color: #fff;
+  background-color: #251f1f; }
+
+.orderlist .switch a:hover {
+  color: #fff;
+  background-color: #090808; }
+
+.rsorder .bx-soa-section.bx-selected,
+.rsorder .bx-soa-pp-company.bx-selected .bx-soa-pp-company-graf-container {
+  border-color: #251f1f; }
+
+.searchinhead.focus {
+  border-color: #251f1f; }
+
+body #rs_easycart .rsec_headers a.rsec_online,
+body #rs_easycart .rsec_headers span.rsec_color {
+  color: #251f1f; }
+
+body #rs_easycart .rsec_headers a.rsec_online span.rsec_name {
+  border-color: #251f1f; }
+
+body #rs_easycart .rsec_btn1,
+body #rs_easycart table.rsec_table tr:hover td.rsec_hov,
+body #rs_easycart .rsec_btn1 {
+  background-color: #251f1f; }
+
+body #rs_easycart .rsec_content .rsec_tyanya .rsec_close .svg-icon,
+body #rs_easycart .rsec_thistab_compare .rsec_delete .svg-icon,
+body #rs_easycart .rsec_thistab_favorite .rsec_delete .svg-icon,
+body #rs_easycart .rsec_thistab_basket .rsec_delete .svg-icon,
+body #rs_easycart .rsec_headers a.rsec_online .svg-icon {
+  fill: #251f1f; }
+
+/* detail ext_pictures */
+.picslider .scrollinner a:hover,
+.picslider .scrollinner a.selected,
+.body div.sale-order-detail-payment-options-methods-template,
+.body .sale-paysystem-wrapper {
+  border-color: #251f1f; }
+
+.body .fichi__inner {
+  border-color: #251f1f; }
+
+/* titles */
+.primary-color,
+.brandslist span,
+.sorter_and_name .name,
+.brandslist.mainstyles .title a,
+.brandslistimg.mainstyles .title a,
+.mods h3.title2,
+.bigdata h3.title2,
+.detailcollection h3.title2,
+.detailtabs .contents .content .switcher,
+.sections a.parent,
+.mainsections .title,
+.presscentermainn .title,
+.sorter_and_name .name,
+.brandslistimgowl1.mainstyles .title a,
+.mainsections a.parent,
+.mainsections__show-more,
+.presscentermainn .item .blockname a,
+.presscentermainn .item a.blockname,
+.catalogmenu2 a.sub,
+.price.new,
+.table .full.name,
+.acc_title,
+.sale-personal-account-wallet-currency-item,
+.nice-title {
+  color: #251f1f; }
+
+/* jScroll */
+.body .jspDrag,
+.body .sale-paysystem-yandex-button-item,
+.fancybox-container .jspDrag,
+.fancybox-container .sale-paysystem-yandex-button-item,
+.rsgppopup .jspDrag,
+.rsgppopup .sale-paysystem-yandex-button-item {
+  background-color: #251f1f; }
+
+.body .jspDrag.jspHover,
+.body .jspDrag.jspActive,
+.fancybox-container .jspDrag.jspHover,
+.fancybox-container .jspDrag.jspActive,
+.rsgppopup .jspDrag.jspHover,
+.rsgppopup .jspDrag.jspActive {
+  background-color: #090808; }
+
+/* svg-icons */
+.rsfavorite .svg-icon,
+.searchinhead .enter .svg-icon,
+.artables.view_gallery table.products .add2basketform .submit .svg-icon,
+.artables.view_gallery table.products .add2basketform .inbasket .svg-icon,
+.artables.view_gallery .add2basketform .tick,
+.artables.view_table table.products .add2basketform .submit .svg-icon,
+.artables.view_table table.products .add2basketform .inbasket .svg-icon,
+.artables.view_table .add2basketform .tick,
+.footer .line1 .contacts .recall .svg-icon,
+.footer .line1 .contacts .feedback .svg-icon,
+.picslider.horizontal a:hover .svg-icon,
+.elementdetail .prices a:hover .svg-icon,
+.picslider.vertical a:hover .svg-icon,
+.elementdetail .zoom .svg-icon,
+.body .set .js-element .plusik .svg-icon,
+.body .basket a.delete .svg-icon,
+.body .basket a.delay .svg-icon,
+.body .basket a.add .svg-icon {
+  fill: #251f1f; }
+
+.artables table.products .add2basketform .add2subscribe .svg-icon {
+  fill: #899CC7; }
+
+/* smart.filter */
+.filtren .dd .lvl2:not(.selected) div.active label {
+  color: #fff;
+  background-color: #251f1f; }
+
+.filtren .dd .lvl2:not(.selected) label:hover,
+.filtren .dd .lvl2:not(.selected) div.active label:hover,
+.menu-sidebar li a:hover,
+.shops2 .shops2-panel .btn1.active {
+  color: #fff;
+  background-color: #090808; }
+
+/*********************************************/
+.brandbig .item .name,
+.erorpage .num-404-error {
+  color: #251f1f !important; }
+
+/* additional styles BORDER COLOR */
+.profillist .item:hover,
+.set .js-element:hover,
+.light .js-element:hover,
+.body .bx-sls .dropdown-block.focus,
+.body .bx-slst .dropdown-block.focus {
+  border-color: #899CC7 !important; }
+
+/* additional styles
+BACKGROUND COLOR*/
+.catalogmenu .first li:hover > a,
+.catalogmenu .first li.hover > a,
+.catalogmenu .first li:hover > a.selected,
+.catalogmenu .first li.hover > a.selected,
+.catalogmenu .first a.sub:hover,
+.catalogmenu a.first:hover,
+.catalogmenu a.first.hover,
+.catalogmenu a.sub:hover,
+.catalogmenu a.sub.hover,
+.pmenu a:hover,
+.filtren .showchild:hover,
+.filtren .lvl1.color .lvl2 label:hover,
+.filtren .body li.lvl1 ul.property li.lvl2 label.pic:hover,
+.light .js-element .buy .go2detail,
+.catalogsorter .dropdownin a:hover,
+.catalogsorter .dropdownin a.selected:hover,
+.comparelist a:hover {
+  color: #fff !important;
+  background-color: #090808 !important; }
+
+.catalogsorter .dropdownin a.selected,
+.propvision1 .offer_prop .div_options .div_option.selected,
+.propvision1 .offer_prop .div_options .div_option.selected span,
+.catalogmenu .first li a.selected,
+.catalogmenu .first li.selected > a {
+  color: #fff !important;
+  background-color: #251f1f !important; }
+
+.propvision1 .offer_prop .div_options .div_option:hover:not(.disabled),
+.propvision1 .offer_prop .div_options .div_option:hover:not(.disabled) span {
+  background-color: #090808 !important; }
+
+.filtren .modef .data a {
+  color: #fff !important; }
+
+/*additional styles
+ACTIVE BACKGROUND COLOR*/
+.body .catalogmenu a.first:active,
+.body .catalogmenu a.first.hover:active,
+.body .catalogmenu a.sub:active,
+.body .catalogmenu a.sub.hover:active,
+.body .pmenu a:hover {
+  background-color: #090808; }
+
+.body .pmenu a.selected,
+.body .pmenu a.selected:active,
+.body .pmenu a:active {
+  background-color: #251f1f; }
+
+/* slider of filter BACKGROUND LINEAR GRADIENT */
+.ui-slider .ui-slider-range,
+.smartfilter .bx_ui_slider_pricebar_V {
+  background-color: #251f1f !important; }
+
+.catalogmenu2 li.first:hover > a,
+.catalogmenu2 li.first.hover > a,
+.catalogmenu2 a.first:hover,
+.catalogmenu2 a.first.hover {
+  background-color: #090808 !important; }
+
+.erorpage .errorbutton a {
+  color: #fff !important;
+  background: #251f1f; }
+
+@media screen and (max-width: 480px) {
+  body.adaptive .detailtabs .content.selected .switcher {
+    color: #fff !important;
+    background-color: #251f1f !important; } }
+
+/** /-- hard color theme -- **/
+
+/*# sourceMappingURL=macros.css.map */

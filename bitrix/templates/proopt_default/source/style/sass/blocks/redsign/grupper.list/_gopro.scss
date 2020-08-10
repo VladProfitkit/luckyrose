@@ -1,0 +1,48 @@
+.groupedprops {
+	th {
+		text-transform: uppercase;
+		padding-top: 25px;
+
+		&.first {
+			padding-top: 0;
+		}
+	}
+
+	th,
+	td {
+		text-align: left;
+		padding: 8px 0;
+	}
+
+	.line {
+		border-bottom: 1px dotted #CCC;
+	}
+
+	.name {
+		color: #777;
+		margin-right: 15px;
+		background-color: #FFF;
+	}
+
+	.valign-bottom {
+		vertical-align: bottom;
+	}
+}
+
+@media (max-width: 605px) {
+	.body .groupedprops {
+		min-width:100px;
+	}
+}
+@media (max-width: 480px) {
+	.body .groupedprops {
+		.line {
+			border-bottom: none;
+		}
+
+		.line,
+		.val {
+			height: auto;
+		}
+	}
+}

@@ -1,6 +1,3 @@
 <?
-$sSectionName = "Nail Art";
-$arDirProperties = Array(
-
-);
+$sSectionName = "Каталог";
 ?>

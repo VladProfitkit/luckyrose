@@ -1,64 +1,67 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Order history");
-?><h1>Order history</h1>
-<?$APPLICATION->IncludeComponent("bitrix:menu", "personal", Array(
-	"COMPONENT_TEMPLATE" => ".default",
-		"ROOT_MENU_TYPE" => "personal",	// Тип меню для первого уровня
-		"MENU_CACHE_TYPE" => "A",	// Тип кеширования
-		"MENU_CACHE_TIME" => "3600000",	// Время кеширования (сек.)
-		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
-		"MAX_LEVEL" => "1",	// Уровень вложенности меню
-		"CHILD_MENU_TYPE" => "",	// Тип меню для остальных уровней
-		"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
-		"DELAY" => "N",	// Откладывать выполнение шаблона меню
-		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+$APPLICATION->SetPageProperty("title", "Заказы");
+$APPLICATION->SetTitle("Заказы");
+?>
+
+<div class="pmenu">
+<?$APPLICATION->IncludeComponent(
+	"bitrix:menu", 
+	"personal", 
+	array(
+		"ROOT_MENU_TYPE" => "personal",
+		"MENU_CACHE_TYPE" => "A",
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MAX_LEVEL" => "1",
+		"CHILD_MENU_TYPE" => "",
+		"USE_EXT" => "N",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N",
+		"SEPARATORS_PLACE" => array(
+			0 => "3",
+			1 => "7",
+			2 => "",
+		),
+		"COMPONENT_TEMPLATE" => "personal"
 	),
 	false
-);?><?$APPLICATION->IncludeComponent(
+);?>
+</div>
+
+<div class="pcontent">
+<?$APPLICATION->IncludeComponent(
 	"bitrix:sale.personal.order", 
-	".default", 
+	"gopro", 
 	array(
-		"SEF_MODE" => "Y",
-		"SEF_FOLDER" => "/personal/order/",
-		"ORDERS_PER_PAGE" => "10",
-		"PATH_TO_PAYMENT" => "/personal/order/payment/",
-		"PATH_TO_BASKET" => "/personal/cart/",
-		"SET_TITLE" => "Y",
-		"SAVE_IN_SESSION" => "N",
-		"NAV_TEMPLATE" => "round",
-		"SHOW_ACCOUNT_NUMBER" => "Y",
-		"COMPONENT_TEMPLATE" => ".default",
 		"PROP_1" => array(
 		),
-		"PROP_2" => "",
+		"PROP_2" => array(
+		),
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"SEF_MODE" => "N",
+		"SEF_FOLDER" => "/personal/order/",
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "3600",
 		"CACHE_GROUPS" => "Y",
+		"ORDERS_PER_PAGE" => "20",
+		"PATH_TO_PAYMENT" => "payment.php",
+		"PATH_TO_BASKET" => "basket.php",
+		"SET_TITLE" => "Y",
+		"SAVE_IN_SESSION" => "Y",
+		"NAV_TEMPLATE" => "",
 		"CUSTOM_SELECT_PROPS" => array(
 		),
 		"HISTORIC_STATUSES" => array(
-			0 => "F",
 		),
-		"DETAIL_HIDE_USER_INFO" => array(
-			0 => "0",
-		),
-		"PATH_TO_CATALOG" => "/catalog/",
-		"RESTRICT_CHANGE_PAYSYSTEM" => array(
-			0 => "0",
-		),
-		"ORDER_DEFAULT_SORT" => "STATUS",
-		"ALLOW_INNER" => "N",
-		"ONLY_INNER_FULL" => "N",
-		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "AUTO",
-		"SEF_URL_TEMPLATES" => array(
-			"list" => "index.php",
-			"detail" => "detail/#ID#/",
-			"cancel" => "cancel/#ID#/",
-		)
+		"STATUS_COLOR_N" => "green",
+		"STATUS_COLOR_F" => "gray",
+		"STATUS_COLOR_PSEUDO_CANCELLED" => "red"
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+</div>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

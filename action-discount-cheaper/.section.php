@@ -1,6 +1,6 @@
 <?
-$sSectionName = "Discount";
+$sSectionName = "Скидки";
 $arDirProperties = Array(
-   "title" => "Discount promotions cheaper"
+
 );
 ?>
