@@ -80,7 +80,7 @@
 				<span class="price hd" id="countItems"><?=$countPos?></span> 
 				<span class="label"><?=GetMessage("TOTAL_SUM")?></span> 
 				<span class="price">
-					<span id="allSum"><?=FormatCurrency($arResult["SUM"], $OPTION_CURRENCY);?></span>
+					<span id="allSum"><?=str_replace(',',' ',FormatCurrency($arResult["SUM"], $OPTION_CURRENCY));?></span>
 				</span>								
 			</div>
 			<form id="coupon">

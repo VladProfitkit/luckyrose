@@ -89,7 +89,9 @@ $(document).on("click", ".basketQty .plus", function(e){
 	$qtyBox.val((Number($qtyBox.val()) * 10 + qtyRatio * 10) / 10);
 	sumCalc = Number(Number(Number($qtyBox.val()) * (Number($sum.data("price") * 10 * 10)))/100);
 	$sum.html(formatPrice(sumCalc) + sumStr);
-	
+
+	console.log($qtyBox.val());
+
 	clearTimeout(flushTimeout);
 	flushTimeout = setTimeout(function(){
 		updateCart($this.data("id"), Number($qtyBox.val()))
@@ -172,6 +174,8 @@ $(function(){
 var updateCart = function(id, q){
 	if(q){
 		$.get(ajaxDir + "/ajax.php?act=upd&id=" + id + "&q=" + q, function(data){
+			console.log("data_info:");
+			console.log(data);
 			data != true ?	console.error(data) : cartReload(reCalcDelivery(getProductPricesInfo()));
 		});
 	}
@@ -201,14 +205,18 @@ var flushParams = function(){
 	var $sum         = $main.find(".sum");
 	var $allDevi     = $("#allDevilerySum");
 	var $allordSum   = $("#allOrderSum");
-	var allStr       = $allSum.html().replace(/\d\.\d/g, '').replace(/[0-9]/g, '');
+	var allStr       = $allSum.html().replace(/\d\.\d/g, '').replace(/[0-9]/g, '').replace(/,/g, '');
 	var orderSum     = 0;
 	var totalQty     = 0;
 
 	$sum.each(function(index){
+		console.log($(this).text());
 		orderSum += parseFloat($(this).text().replace(/\s+/g, '').replace('$',''))*10*10;
 	});
 	orderSum = orderSum/100;
+
+	console.log("orderSum");
+	console.log(orderSum);
 
 	$mainQty.each(function(){
 		totalQty += parseFloat($(this).val());
@@ -516,7 +524,9 @@ var deliveryJsonResultHandle = function(jsonData, activeIndex){
 };
 
 var getProductPricesInfo = function(){
-	
+
+	console.log(ajaxDir);
+
 	$productTable = $("#basketProductList").addClass("wait");
 	$personSelect = $("#personSelect");
 

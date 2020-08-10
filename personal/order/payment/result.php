@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Результат оплаты");
-?><?$APPLICATION->IncludeComponent(
+?>paypal.me/luckyroseclubcom<?$APPLICATION->IncludeComponent(
 	"bitrix:sale.order.payment.receive",
 	"",
 	Array(

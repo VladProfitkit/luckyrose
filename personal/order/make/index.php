@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Заказы");
 	),
 	"PATH_TO_BASKET" => "/personal/cart/",
 	"PATH_TO_PERSONAL" => "/personal/order/",
-	"PATH_TO_PAYMENT" => "/personal/order/payment/",
+	"PATH_TO_PAYMENT" => "/personal/order/payment/"
 	"PATH_TO_ORDER" => "/personal/order/make/",
 	"SET_TITLE" => "Y" ,
 	"DELIVERY2PAY_SYSTEM" => Array(),

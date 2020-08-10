@@ -1,13 +1,14 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("To order");
 global $USER;
-?>
-	<h1>To order</h1>
+?>	<h1>To order</h1>
 
 	<?if(!$_POST["ORDER_ID"] && !$USER->IsAuthorized()){?>
 		<p>
 			If You are already a registered customer, you can go to your <a href="/auth/?backurl=/personal/cart/order/">personal account</a> and continue shopping. <br>
 			If you are Wholesale Buyers or Distributors, please login to your <a href="/auth/?backurl=/personal/cart/order/">personal account</a> .
+<br>
+			<strong>Please check your e-mail. You received payment details in the e-mail.<br></strong>
 		</p>
 	<?}?>
 

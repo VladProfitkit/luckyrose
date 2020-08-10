@@ -32,8 +32,7 @@ $APPLICATION->SetTitle("Order history");
 		"COMPONENT_TEMPLATE" => ".default",
 		"PROP_1" => array(
 		),
-		"PROP_2" => array(
-		),
+		"PROP_2" => "",
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "3600",
@@ -43,6 +42,18 @@ $APPLICATION->SetTitle("Order history");
 		"HISTORIC_STATUSES" => array(
 			0 => "F",
 		),
+		"DETAIL_HIDE_USER_INFO" => array(
+			0 => "0",
+		),
+		"PATH_TO_CATALOG" => "/catalog/",
+		"RESTRICT_CHANGE_PAYSYSTEM" => array(
+			0 => "0",
+		),
+		"ORDER_DEFAULT_SORT" => "STATUS",
+		"ALLOW_INNER" => "N",
+		"ONLY_INNER_FULL" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
 		"SEF_URL_TEMPLATES" => array(
 			"list" => "index.php",
 			"detail" => "detail/#ID#/",
