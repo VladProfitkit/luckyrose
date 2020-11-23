@@ -2766,7 +2766,8 @@ img {
 
 /* catalog.element -> popup -> soloprices */
 .rsgppopup .soloprice {
-  margin-top: 15px; }
+  margin-top: 15px;
+  margin-left: 15px;}
 
 .rsgppopup .soloprice span {
   display: inline-block;
@@ -6916,6 +6917,10 @@ ul.list-unstyled, ol.list-unstyled {
   color: #FFF;
   background-color: #899cc7; }
 
+.product_preview:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 .artables.view_gallery table.products tr:hover td.name a {
   color: #FFF; }
 
@@ -7133,12 +7138,27 @@ ul.list-unstyled, ol.list-unstyled {
   position: relative;
   padding: 10px 0px;
   text-align: center; }
-
+.view_showcase span.product_preview{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  display: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+}
+.view_showcase span.product_preview{
+  text-decoration: none;
+}
+.view_showcase div.pic:hover .product_preview{
+  display: block;
+}
 .view_showcase .pic a,
 .view_showcase .pic span.pic {
   display: block;
   width: 100%;
-  height: 170px;
+  /*height: 170px;*/
   line-height: 170px;
   text-align: center; }
 
@@ -12875,7 +12895,7 @@ div.sale-order-detail-payment-options-methods-template {
 
 .navigation {
   float: right;
-  padding-top: 12px;
+  padding-top: 50px;
   font-size: 14px; }
 
 .navigation .arrow .icon {
@@ -14742,6 +14762,12 @@ BACKGROUND COLOR*/
 
 .filtren .modef .data a {
   color: #fff !important; }
+
+@media screen and (max-width: 768px){
+  span.product_preview{
+    display: none !important;
+  }
+}
 
 /*additional styles
 ACTIVE BACKGROUND COLOR*/

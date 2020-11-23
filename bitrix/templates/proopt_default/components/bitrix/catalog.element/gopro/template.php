@@ -604,8 +604,10 @@ $canBuy = $product['CAN_BUY'];
                     ?><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-check2"></use></svg><?
                     ?><?=GetMessage('INBASKET')?><?
                 ?></a><?
-                ?><a rel="nofollow" class="go2basket" href="<?=$arParams['BASKET_URL']?>"><?=GetMessage('INBASKET_TITLE')?></a><?
-                ?><a rel="nofollow" class="buy1click js-buy1click detail fancyajax fancybox.ajax btn3" href="<?=SITE_DIR?>include/popup/buy1click/" title="<?=GetMessage('BUY1CLICK')?>" data-insertdata='{"RS_ORDER_IDS":<?=$product['ID']?>}'><?=GetMessage('BUY1CLICK')?></a><?
+                ?><a rel="nofollow" class="go2basket" href="<?=$arParams['BASKET_URL']?>"><?=GetMessage('INBASKET_TITLE')?></a>
+                <?if(false):?>
+                <a rel="nofollow" class="buy1click js-buy1click detail fancyajax fancybox.ajax btn3" href="<?=SITE_DIR?>include/popup/buy1click/" title="<?=GetMessage('BUY1CLICK')?>" data-insertdata='{"RS_ORDER_IDS":<?=$product['ID']?>}'><?=GetMessage('BUY1CLICK')?></a>
+                <?endif;
 
                 // SUBSCRIBE
                 if ($showSubscribeBtn):

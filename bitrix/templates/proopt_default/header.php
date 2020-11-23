@@ -119,6 +119,7 @@ $asset->addJs(SITE_TEMPLATE_PATH.'/assets/js/offers.js');
 $asset->addJs(SITE_TEMPLATE_PATH.'/assets/js/timer.js');
 
 // add custom
+$asset->addCss(SITE_TEMPLATE_PATH.'/assets/js/popup/style.css');
 $asset->addCss(SITE_TEMPLATE_PATH.'/custom/style.css');
 $asset->addJs(SITE_TEMPLATE_PATH.'/custom/script.js');
 $asset->addCss(SITE_DIR.'include/style.css');

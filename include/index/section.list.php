@@ -21,8 +21,8 @@
 		"CACHE_TIME" => "36000000",
 		"CACHE_GROUPS" => "Y",
 		"ADD_SECTIONS_CHAIN" => "N",
-		"SHOW_COUNT_LVL1" => "8",
-		"SHOW_COUNT_LVL2" => "11",
+		"SHOW_COUNT_LVL1" => "20",
+		"SHOW_COUNT_LVL2" => "0",
 		"COMPONENT_TEMPLATE" => "main",
 		"BLOCK_NAME" => ""
 	),

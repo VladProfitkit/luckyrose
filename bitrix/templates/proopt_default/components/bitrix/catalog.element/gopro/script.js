@@ -306,7 +306,7 @@ $(document).ready(function(){
 	} else if($tabs.find('.switcher[href="' + window.location.hash + '"]').length > 0) {
 		$tabs.find('.switcher[href="' + window.location.hash + '"]').trigger('click');
 	} else {
-		$tabs.find('.switcher:first').trigger('click');
+		//$tabs.find('.switcher:first').trigger('click');
 	}
 	
 	$('.detailtabs.anchor').find('.switcher:first').addClass('selected');

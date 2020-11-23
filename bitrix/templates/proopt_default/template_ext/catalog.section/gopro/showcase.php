@@ -70,7 +70,7 @@ if(is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0) {
 			?>id="<?=$this->GetEditAreaId($arItem["ID"]);?>" <?
 			?>data-productid="<?=$product['ID']?>" <?
 			?>data-detail="<?=$arItem['DETAIL_PAGE_URL']?>"><?
-			?><div class="inner"><?
+			?><div class="inner js-position"><?
 				?><div class="padd"><?
 					if( $arParams['DONT_SHOW_LINKS']!='Y' ) {
 						?><a href="<?=$arItem['DETAIL_PAGE_URL']?>"><?
@@ -97,7 +97,9 @@ if(is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0) {
 							?></span><?
 						}
 					?></div><?
-					?><div class="pic"><?
+					?><div class="pic">
+					<span class="product_preview" onclick="RSGoPro_GoPopup(<?=$arItem['ID']?>, $('#<?=$this->GetEditAreaId($arItem["ID"]);?>'))">Быстрый просмотр</span>
+					<?
 
 						// stickers
 						include(Application::getDocumentRoot().SITE_TEMPLATE_PATH.'/template_ext/stickers.php');
@@ -308,7 +310,7 @@ if(is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0) {
 
                 <? // -- SECOND PART ?>
 				<?php if ($arParams['OFF_SMALLPOPUP'] != 'Y'): ?>
-					<div class="popup padd">
+					<div class="popup padd ">
 						<?php // PROPERTIES ?>
 						<?php if (is_array($arItem['OFFERS_EXT']['PROPERTIES']) && count($arItem['OFFERS_EXT']['PROPERTIES']) > 0): ?>
 							<div class="properties">
@@ -403,6 +405,9 @@ if(is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0) {
                                         ?><a rel="nofollow" class="checkbox add2compare" href="<?=$arItem['COMPARE_URL']?>"><span class="label js-label"><?=GetMessage('ADD2COMPARE')?></span></a><?
                                     ?></div><?
                                 }
+                                ?>
+                                <br>
+                                <?
                                 if ($arParams['USE_STORE'] == 'Y' && $arParams['HIDE_IN_LIST'] != 'Y') {
 									if (!empty($arParams['PROP_STORE_REPLACE_SECTION']) && $arItem['DISPLAY_PROPERTIES'][$arParams['PROP_STORE_REPLACE_SECTION']]['DISPLAY_VALUE'] != '') {
 										?><div class="stores"><span><?

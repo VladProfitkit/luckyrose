@@ -7,7 +7,7 @@
 }
 .rsgppopup .inner{
 	min-width:500px;
-	min-height:320px;
+	min-height:400px;
 	background-color:#FFF;
 	-khtml-border-radius:4px;
 	-moz-border-radius:4x;
@@ -29,7 +29,7 @@
 /* catalog.element -> popup */
 .rsgppopup{
 	width:100%;
-	max-width:500px;
+	max-width:800px;
 }
 .rsgppopup .block{
 	float:left;
@@ -48,11 +48,27 @@
 .rsgppopup .block.right .ppadding{
 	padding-bottom:5px;
 }
+.ppadding.right-block{
+	min-height: 420px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.ppadding.right-block .propanddesc{
+	flex-grow: 1;
+}
 .rsgppopup .ppadding .propanddesc{
 	min-height:225px;
 }
 .rsgppopup .pic{
 	padding:10px 0px;
+}
+.rsgppopup .pic img{
+	max-width: 100%;
+	width: 400px;
+}
+.rsgppopup .picslider .scrollinner a img{
+	max-width: 100%;
 }
 .rsgppopup .article{
 	margin-bottom:12px;
@@ -109,6 +125,7 @@
 /* catalog.element -> popup -> soloprices */
 .rsgppopup .soloprice{
 	margin-top:15px;
+	margin-left: 15px;
 }
 .rsgppopup .soloprice span{
 	display:inline-block;

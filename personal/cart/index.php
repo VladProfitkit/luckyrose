@@ -44,7 +44,7 @@ $APPLICATION->SetTitle("Корзина");
 			6 => "QUANTITY",
 			7 => "SUM",
 			8 => "PROPERTY_CML2_ARTICLE",
-			9 => "PROPERTY_YEAR",
+			//9 => "PROPERTY_YEAR",
 		),
 		"PATH_TO_ORDER" => "/personal/order/make/",
 		"HIDE_COUPON" => "N",

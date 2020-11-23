@@ -213,7 +213,9 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0) {
 					?>></span><?
 				?></td><?
 				?><td class="name"><?
-					?><div class="name js-position"><?
+					?><div class="name js-position">
+					<span class="product_preview" onclick="RSGoPro_GoPopup(<?=$arItem['ID']?>, $('#<?=$this->GetEditAreaId($arItem["ID"]);?>'))">Быстрый просмотр</span>
+					<?
 						?><table class="smpl"><?
 							?><tr><?
 								?><td class="pic"><?

@@ -28,3 +28,22 @@ body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
 #distr_form label{
     font-size: 16px;
 }
+
+@media (max-width: 1024px) {
+    .view_showcase .js-element {
+        height: auto !important;
+        /*margin-bottom: 20px;*/
+    }
+
+    .view_showcase .js-element .inner {
+        position: static;
+    }
+
+    .view_showcase .js-element .popup {
+        display: block;
+    }
+}
+
+@media (max-width: 1000px) {
+
+}

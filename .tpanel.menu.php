@@ -7,6 +7,13 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
+    Array(
+        "Представители",
+        "/partners/",
+        Array(),
+        Array(),
+        ""
+    ),
 	Array(
 		"Оплата и Доставка", 
 		"/delivery-payment/", 

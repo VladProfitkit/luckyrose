@@ -14,8 +14,8 @@
 		"DELAY" => "N",
 		"ALLOW_MULTI_SELECT" => "N",
 		"BLOCK_TITLE" => "Каталог товаров",
-		"LVL1_COUNT" => "6",
-		"LVL2_COUNT" => "4",
+		"LVL1_COUNT" => "20",
+		"LVL2_COUNT" => "0",
 		"ELLIPSIS_NAMES" => "Y"
 	),
 	false

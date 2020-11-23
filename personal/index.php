@@ -1,6 +1,9 @@
 <?define("NEED_AUTH", true);
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Персональный раздел");
+
+use \Bitrix\Main\Page\Asset;
+Asset::getInstance()->addCss('/bitrix/css/main/bootstrap.min.css');
 ?>
 
 <div class="pmenu">
