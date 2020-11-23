@@ -37,7 +37,7 @@ IncludeTemplateLangFile(__FILE__);
 		<title><?$APPLICATION->ShowTitle();?></title>
 	</head>
 <body class="loading <?if (INDEX_PAGE == "Y"):?>index<?endif;?><?if(!empty($TEMPLATE_PANELS_COLOR) && $TEMPLATE_PANELS_COLOR != "default"):?> panels_<?=$TEMPLATE_PANELS_COLOR?><?endif;?>">
-	<div id="panel">
+    <div id="panel">
 		<?$APPLICATION->ShowPanel();?>
 	</div>
 	<div id="foundation">
