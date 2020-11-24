@@ -203,10 +203,10 @@ $showblockBrands = $instanceOptionManager->get('SWITCH_BRANDS');
         ym(69673336, "init", {
             clickmap:true,
             trackLinks:true,
-            accurateTrackBounce:true
+            accurateTrackBounce:true,
+            webvisor:true
         });
     </script>
-
     <noscript><div><img src="https://mc.yandex.ru/watch/69673336" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
