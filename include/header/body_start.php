@@ -1,3 +1,4 @@
+<?/*
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7WL0D2DG2"></script>
 <script>
@@ -6,6 +7,17 @@
     gtag('js', new Date());
 
     gtag('config', 'G-H7WL0D2DG2');
+</script>
+*/?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-11D93C8TR6"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-11D93C8TR6');
 </script>
 
 <!-- Yandex.Metrika counter -->

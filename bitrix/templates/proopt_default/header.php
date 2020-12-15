@@ -184,6 +184,7 @@ $showblockBrands = $instanceOptionManager->get('SWITCH_BRANDS');
     );?>
 </head>
 <body class="aa rsgopro adaptive prop_option_<?=$skuView?><?=($circular == 'Y' ? ' circular' : '')?> header_<?=$headerType?><?=($offYandex == 'Y' ? ' js-off-yandex' : '')?>">
+    <?/*
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7WL0D2DG2"></script>
     <script>
@@ -193,6 +194,7 @@ $showblockBrands = $instanceOptionManager->get('SWITCH_BRANDS');
 
         gtag('config', 'G-H7WL0D2DG2');
     </script>
+    */?>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
