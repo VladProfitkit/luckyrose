@@ -34,6 +34,7 @@ global $USER;
 		"SHOW_STORES_IMAGES" => "N",
 		"PATH_TO_BASKET" => "/personal/cart/",
 		"PATH_TO_PERSONAL" => "/personal/",
+        "PATH_TO_ORDERS" => "/personal/orders/",
 		"PATH_TO_PAYMENT" => "/personal/cart/payment/",
 		"PATH_TO_AUTH" => "/auth/",
 		"SET_TITLE" => "Y",

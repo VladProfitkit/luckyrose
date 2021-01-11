@@ -30,7 +30,7 @@ if ($arParams["SET_TITLE"] == "Y")
               <? endif ?>
               <? if ($arParams['NO_PERSONAL'] !== 'Y'): ?>
                   <br /><br />
-                <?=Loc::getMessage('SOA_ORDER_SUC1', ['#LINK#' => $arParams['PATH_TO_PERSONAL']])?>
+                <?=Loc::getMessage('SOA_ORDER_SUC1', ['#LINK#' => $arParams['PATH_TO_ORDERS']])?>
               <? endif; ?>
             </td>
         </tr>
