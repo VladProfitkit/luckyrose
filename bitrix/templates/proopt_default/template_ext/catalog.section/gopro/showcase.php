@@ -104,27 +104,53 @@ if(is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0) {
 						// stickers
 						include(Application::getDocumentRoot().SITE_TEMPLATE_PATH.'/template_ext/stickers.php');
 
-						// PICTURE
+						if($arItem['PROPERTIES']['MORE_PHOTO']['VALUE']){
+                            $photos = [];
+                            foreach ($arItem['PROPERTIES']['MORE_PHOTO']['VALUE'] as $photo){
+                                $photos[] = $photo['RESIZE']['src'];
+                            }
+                            array_unshift($photos, $arItem['FIRST_PIC']['RESIZE']['src']);
+                            ?>
+
+                            <div class="showcase-item-slider owl-carousel owl-theme">
+
+                            <?foreach ($photos as $photo):?>
+                                <div class="showcase-item-slide">
+                                    <a href="<?=$arItem['DETAIL_PAGE_URL']?>">
+                                        <img src="<?=$photo?>">
+                                    </a>
+                                </div>
+                            <?endforeach;?>
+                            </div>
+
+                            <?
+                        }else{
+						        // PICTURE
 						if ($arParams['DONT_SHOW_LINKS'] != 'Y') {
 							?><a href="<?=$arItem['DETAIL_PAGE_URL']?>"><?
 						} else {
 							?><span class="pic"><?
-						}
+                            }
 
-						// get _$strAlt_ and _$strTitle_
-						include(Application::getDocumentRoot().SITE_TEMPLATE_PATH.'/template_ext/img_alt_title.php');
-						
-						if (isset($arItem['FIRST_PIC']['RESIZE']['src']) && trim($arItem['FIRST_PIC']['RESIZE']['src']) != '') {
-							?><img src="<?=$arItem['FIRST_PIC']['RESIZE']['src']?>" alt="<?=$strAlt?>" title="<?=$strTitle?>" /><?
-						} else {
-							?><img src="<?=$arResult['NO_PHOTO']['src']?>" alt="<?=$strAlt?>" title="<?=$strTitle?>" /><?
-						}
-						if ($arParams['DONT_SHOW_LINKS'] != 'Y') {
-							?></a><?
-						} else {
-							?></span><?
-						}
+                            // get _$strAlt_ and _$strTitle_
+                            include(Application::getDocumentRoot().SITE_TEMPLATE_PATH.'/template_ext/img_alt_title.php');
 
+                            if (isset($arItem['FIRST_PIC']['RESIZE']['src']) && trim($arItem['FIRST_PIC']['RESIZE']['src']) != '') {
+                                ?><img src="<?=$arItem['FIRST_PIC']['RESIZE']['src']?>" alt="<?=$strAlt?>" title="<?=$strTitle?>" /><?
+                            } else {
+                                ?><img src="<?=$arResult['NO_PHOTO']['src']?>" alt="<?=$strAlt?>" title="<?=$strTitle?>" /><?
+                            }
+                            if ($arParams['DONT_SHOW_LINKS'] != 'Y') {
+                                ?></a><?
+                            } else {
+                                ?></span><?
+                            }
+                        }
+
+
+                        ?>
+                       
+                        <?
 						// TIMERS
 						$arTimers = array();
 						if( $arItem['HAVE_DA2']=='Y' ) {

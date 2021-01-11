@@ -7141,12 +7141,13 @@ ul.list-unstyled, ol.list-unstyled {
 .view_showcase span.product_preview{
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 14%;
   display: none;
   padding: 10px 20px;
   border-radius: 5px;
   background: #333;
   color: #fff;
+  z-index: 10;
 }
 .view_showcase span.product_preview{
   text-decoration: none;

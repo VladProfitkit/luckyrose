@@ -29,6 +29,36 @@ body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
     font-size: 16px;
 }
 
+.showcase-item-slider{
+    position: relative;
+}
+.showcase-item-slider .owl-nav{
+    position: absolute;
+    top: 53%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+.showcase-item-slider:hover .owl-nav{
+    opacity: 1;
+}
+.showcase-item-slider .owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url(../assets/img/chevron.svg);
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+}
+.showcase-item-slider .owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background: url(../assets/img/chevron.svg);
+    background-repeat: no-repeat;
+}
 @media (max-width: 1024px) {
     .view_showcase .js-element {
         height: auto !important;
@@ -44,6 +74,11 @@ body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
     }
 }
 
-@media (max-width: 1000px) {
-
+@media (max-width: 1009px) {
+    .gopro-banners .owl-carousel .owl-nav {
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+        -moz-opacity: .5;
+        -khtml-opacity: .5;
+        opacity: .5;
+    }
 }
