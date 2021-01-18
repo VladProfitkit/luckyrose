@@ -1,5 +1,5 @@
 <div class="sorter_and_name clearfix">
-	<h3 class="name">Лучшие товары</h3>
+	<p class="name">Лучшие товары</p>
 	<div class="sorter">
 
 <?$APPLICATION->IncludeComponent(

@@ -59,6 +59,13 @@ body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
     background: url(../assets/img/chevron.svg);
     background-repeat: no-repeat;
 }
+
+.showcase-item-slider .owl-nav,
+.showcase-item-slider .owl-nav .owl-prev,
+.showcase-item-slider .owl-nav .owl-next {
+    opacity: 1;
+}
+
 @media (max-width: 1024px) {
     .view_showcase .js-element {
         height: auto !important;

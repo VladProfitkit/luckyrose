@@ -32,7 +32,7 @@ $i = 1;
 				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 gallery-popup__col_item">
 					<div class="gallery-popup__item">
 						<a data-fancybox="<?=$jsFancyboxClass?>" class="gallery-popup__link js-gallery-item" href="<?=$arImages[0]['SRC']?>" data-caption="<?=$arItem['NAME']?>">
-							<img class="gallery-popup__pic" src="<?=$previewPic?>" alt="<?=$strAlt?>" title="">
+							<img class="gallery-popup__pic" src="<?=$previewPic?>" <?/*alt="<?=$strAlt?>"*/?> alt="<?=GetMessage('NL_GALLERY_POPUP_IMG_ALT').$i?>" title="<?=GetMessage('NL_GALLERY_POPUP_IMG_TITLE').$i?>">
 							<div class="gallery-popup__info">
 								<div class="gallery-popup__title"><?=$arItem['NAME']?></div>
 							</div>

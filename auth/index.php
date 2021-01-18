@@ -11,7 +11,7 @@ $APPLICATION->SetTitle('Авторизация');
 <p>Вы успешно зарегистрировались и авторизовались на сайте!</p>
 
 <div class="sorter_and_name clearfix">
-	<h3 class="name">Лучшие товары</h3>
+	<p class="name">Лучшие товары</p>
 </div>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section", 

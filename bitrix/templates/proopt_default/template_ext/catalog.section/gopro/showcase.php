@@ -136,9 +136,9 @@ if(is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0) {
                             include(Application::getDocumentRoot().SITE_TEMPLATE_PATH.'/template_ext/img_alt_title.php');
 
                             if (isset($arItem['FIRST_PIC']['RESIZE']['src']) && trim($arItem['FIRST_PIC']['RESIZE']['src']) != '') {
-                                ?><img src="<?=$arItem['FIRST_PIC']['RESIZE']['src']?>" alt="<?=$strAlt?>" title="<?=$strTitle?>" /><?
+                                ?><img src="<?=$arItem['FIRST_PIC']['RESIZE']['src']?>" alt="<?=$strAlt?> — Фото 1" title="<?=$strTitle?> — Изображение 1" /><?
                             } else {
-                                ?><img src="<?=$arResult['NO_PHOTO']['src']?>" alt="<?=$strAlt?>" title="<?=$strTitle?>" /><?
+                                ?><img src="<?=$arResult['NO_PHOTO']['src']?>" alt="<?=$strAlt?> — Фото 1" title="<?=$strTitle?> — Изображение 1" /><?
                             }
                             if ($arParams['DONT_SHOW_LINKS'] != 'Y') {
                                 ?></a><?
