@@ -183,7 +183,7 @@ $showblockBrands = $instanceOptionManager->get('SWITCH_BRANDS');
         Array("MODE"=>"html")
     );?>
 
-    <meta name="yandex-verification" content="9ef5b324ca03a8c2" />
+    <meta name="yandex-verification" content="5f1e2381c69a00ee" />
     <meta name="google-site-verification" content="9YSgtwR9MT6XGhmZ058djZgzckVLSszksc1lgRo3HbQ" />
 </head>
 <body class="aa rsgopro adaptive prop_option_<?=$skuView?><?=($circular == 'Y' ? ' circular' : '')?> header_<?=$headerType?><?=($offYandex == 'Y' ? ' js-off-yandex' : '')?>">
