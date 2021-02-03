@@ -66,6 +66,16 @@ body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
     opacity: 1;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
 @media (max-width: 1024px) {
     .view_showcase .js-element {
         height: auto !important;

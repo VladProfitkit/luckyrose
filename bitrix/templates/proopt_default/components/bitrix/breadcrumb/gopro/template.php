@@ -6,7 +6,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
 if (empty($arResult))
 	return '';
 
-$strReturn .= '<ul class="rsbreadcrumb list-unstyled">';
+$strReturn .= '<ul class="rsbreadcrumb list-unstyled" itemscope itemtype="https://schema.org/BreadcrumbList">';
 
 $itemSize = count($arResult);
 for ($index = 0; $index < $itemSize; $index++) {
@@ -24,8 +24,9 @@ for ($index = 0; $index < $itemSize; $index++) {
 			$strReturn .= ' class="last"';
 		}
 
-		$strReturn .= ' id="bx_breadcrumb_'.$index.'" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"'.$child.$nextRef.'>
-				<a href="'.$arResult[$index]["LINK"].'" title="'.$title.'" itemprop="url"><span itemprop="title">'.$title.'</span></a>
+		$strReturn .= ' id="bx_breadcrumb_'.$index.'" itemprop="itemListElement" itemscope
+      itemtype="https://schema.org/ListItem"'.$child.$nextRef.'>
+				<a href="'.$arResult[$index]["LINK"].'" title="'.$title.'" itemprop="item"><span itemprop="name">'.$title.'</span><span class="visually-hidden" itemprop="position">'.$index.'</span></a>
 			</li>';
 	} else {
 		$strReturn .= '<li>'.$title.'</li>';
