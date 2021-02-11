@@ -1,6 +1,8 @@
 <?php
 if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 	die();
+
+$page = $APPLICATION->GetCurPage();
 ?>
 
 <div class="tline"></div>
@@ -49,33 +51,33 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
         <div class="centeringin clearfix">
             <div class="logo column1">
                 <div class="column1inner">
-                    <a href="<?=SITE_DIR?>">
-<?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	array(
-		"AREA_FILE_SHOW" => "file",
-		"PATH" => SITE_DIR."include/company_logo.php",
-		"EDIT_TEMPLATE" => ""
-	),
-	false
-);?>
+                    <a<?=$page == '/' ? '' : ' href="'.SITE_DIR.'"'?>>
+                        <?$APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            array(
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH" => SITE_DIR."include/company_logo.php",
+                                "EDIT_TEMPLATE" => ""
+                            ),
+                            false
+                        );?>
                     </a>
                 </div>
             </div>
             <div class="phone column1 nowrap">
                 <div class="column1inner">
                     <svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-handphone"></use></svg>
-<?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	array(
-		"AREA_FILE_SHOW" => "file",
-		"PATH" => SITE_DIR."include/header/phone.php",
-		"EDIT_TEMPLATE" => ""
-	),
-	false
-);?>
+                        <?$APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            array(
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH" => SITE_DIR."include/header/phone.php",
+                                "EDIT_TEMPLATE" => ""
+                            ),
+                            false
+                        );?>
                 </div>
             </div>
             <div class="callback column1 nowrap">

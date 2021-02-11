@@ -3,6 +3,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 	die();
 
 $this->setFrameMode(true);
+
+$page = $APPLICATION->GetCurPage();
 ?>
 
 <?php
@@ -50,7 +52,7 @@ $countMainLvl = 1;
 			}
 			?>
 			<div class="item depth_level<?=$CURRENT_DEPTH_LEVEL?>">
-				<a href="<?=$arMenu['LINK']?>" title="<?=$arMenu['TEXT']?>"><span><?=$arMenu['TEXT']?></span></a>
+				<a<?=$page == $arMenu['LINK'] ? '' : ' href="'.$arMenu['LINK'].'"'?> title="<?=$arMenu['TEXT']?>"><span><?=$arMenu['TEXT']?></span></a>
 			</div>
 			<?php
 			$PREVIOUS_DEPTH_LEVEL = $CURRENT_DEPTH_LEVEL;

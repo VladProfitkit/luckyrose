@@ -1,6 +1,8 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 $this->setFrameMode(true);
 
+$page = $APPLICATION->GetCurPage();
+
 if(!function_exists('RSGoProCatalogMenuElement')) {
 	function RSGoProCatalogMenuElement($ELEMENT_ID=0,$arParams) {
 		global $APPLICATION;
@@ -67,7 +69,7 @@ $APPLICATION->IncludeComponent(
 if(is_array($arResult) && count($arResult)>0) {
 	?><div class="catalogmenucolumn"><?
 		?><ul class="catalogmenu list-unstyled clearfix"><?
-			?><li class="parent"><a href="<?=$arParams['CATALOG_PATH']?>" class="parent"><?=GetMessage('RSGOPRO_CATALOG')?><?
+			?><li class="parent"><a<?=$page == $arParams['CATALOG_PATH'] ? '' :' href="'.$arParams['CATALOG_PATH'].'"'?> class="parent"><?=GetMessage('RSGOPRO_CATALOG')?><?
 			?><svg class="svg-icon menu"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-menu"></use></svg></a><?
 			?><ul class="first list-unstyled clearfix lvl1<?if($arParams['IS_MAIN']=='Y'):?> rs-show<?endif;?>"><?
 			$previousLevel = 0;
@@ -88,7 +90,7 @@ if(is_array($arResult) && count($arResult)>0) {
 				if ($arItem['IS_PARENT']) {
 					if ($arItem['DEPTH_LEVEL'] == 1) {
 						?><li class="first<?if ($index>$max):?> more<?endif;?><?if($arItem['IS_LAST_LVL1']=='Y'):?> lastchild<?endif;?><?=(!empty($arItem['DETAIL_PICTURE']) ? ' catalogmenu-icon' : '')?>"><?
-							?><a href="<?=$arItem['LINK']?>" class="first<?if($arItem['SELECTED']):?> selected<?endif?>" title="<?=$arItem['TEXT']?>"><?
+							?><a<?=$page == $arItem['LINK'] ? '' : ' href="'.$arItem['LINK'].'"'?> class="first<?if($arItem['SELECTED']):?> selected<?endif?>" title="<?=$arItem['TEXT']?>"><?
 							if (!empty($arItem['DETAIL_PICTURE'])) {
 									?><img class="catalogmenu__icon" src="<?=$arItem['DETAIL_PICTURE']?>" alt="" title=""><?
 								}
@@ -97,13 +99,13 @@ if(is_array($arResult) && count($arResult)>0) {
 							?><ul class="list-unstyled lvl<?if($arItem['DEPTH_LEVEL']>3):?>4<?else:?><?=($arItem['DEPTH_LEVEL']+1)?><?endif;?>"><?
 						$index++;
 					} else {
-						?><li class="sub<?if ($arItem['SELECTED']):?> selected<?endif?>"><a href="<?=$arItem['LINK']?>" class="sub" title="<?=$arItem['TEXT']?>"><?=$arItem['TEXT']?><svg class="svg-icon arrow"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-arrow-linear-right"></use></svg></a><?
+						?><li class="sub<?if ($arItem['SELECTED']):?> selected<?endif?>"><a<?=$page == $arItem['LINK'] ? '' : ' href="'.$arItem['LINK'].'"'?> class="sub" title="<?=$arItem['TEXT']?>"><?=$arItem['TEXT']?><svg class="svg-icon arrow"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-arrow-linear-right"></use></svg></a><?
 							?><ul class="list-unstyled lvl<?if($arItem['DEPTH_LEVEL']>3):?>4<?else:?><?=($arItem['DEPTH_LEVEL']+1)?><?endif;?>"><?
 					}
 				} else {
 					if ($arItem['DEPTH_LEVEL'] == 1) {
 						?><li class="first<?if($index>$max):?> more<?endif;?><?if($arItem['IS_LAST_LVL1']=='Y'):?> lastchild<?endif;?><?=(!empty($arItem['DETAIL_PICTURE']) ? ' catalogmenu-icon' : '')?>"><?
-							?><a href="<?=$arItem['LINK']?>" class="first<?if($arItem['SELECTED']):?> selected<?endif?>" title="<?=$arItem['TEXT']?>"><?
+							?><a<?=$page == $arItem['LINK'] ? '' : ' href="'.$arItem['LINK'].'"'?> class="first<?if($arItem['SELECTED']):?> selected<?endif?>" title="<?=$arItem['TEXT']?>"><?
 								if (!empty($arItem['DETAIL_PICTURE'])) {
 									?><img class="catalogmenu__icon" src="<?=$arItem['DETAIL_PICTURE']?>" alt="" title=""><?
 								}
@@ -112,7 +114,7 @@ if(is_array($arResult) && count($arResult)>0) {
 						?></li><?
 						$index++;
 					} else {
-						?><li class="sub<?if($arItem['SELECTED']):?> selected<?endif?>"><a href="<?=$arItem['LINK']?>" class="sub" title="<?=$arItem['TEXT']?>"><?=$arItem['TEXT']?></a></li><?
+						?><li class="sub<?if($arItem['SELECTED']):?> selected<?endif?>"><a<?=$page == $arItem['LINK'] ? '' : ' href="'.$arItem['LINK'].'"'?> class="sub" title="<?=$arItem['TEXT']?>"><?=$arItem['TEXT']?></a></li><?
 					}
 				}
 				$previousLevel = $arItem['DEPTH_LEVEL'];
@@ -125,17 +127,17 @@ if(is_array($arResult) && count($arResult)>0) {
 				echo '</ul></li>';
 			}
 			if($index>($max+1)){
-				?><li class="first morelink lastchild"><a href="<?=$arParams['CATALOG_PATH']?>" class="first morelink"><svg class="svg-icon svg-icon__morelink"><use xlink:href="#svg-more"></use></svg><svg class="svg-icon arrow"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-arrow-linear-right"></use></svg></a></li><?
+				?><li class="first morelink lastchild"><a<?=$page == $arParams['CATALOG_PATH'] ? '' :' href="'.$arParams['CATALOG_PATH'].'"'?> class="first morelink"><svg class="svg-icon svg-icon__morelink"><use xlink:href="#svg-more"></use></svg><svg class="svg-icon arrow"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-arrow-linear-right"></use></svg></a></li><?
 			}
 			?></ul></li><?
 		?></ul><?
 		
 		?><ul class="catalogmenusmall clearfix"><?
-			?><li class="parent"><a href="<?=$arParams['CATALOG_PATH']?>" class="parent"><?=GetMessage('RSGOPRO_CATALOG')?><svg class="svg-icon menu"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-menu"></use></svg></a><?
+			?><li class="parent"><a<?=$page == $arParams['CATALOG_PATH'] ? '' :' href="'.$arParams['CATALOG_PATH'].'"'?> class="parent"><?=GetMessage('RSGOPRO_CATALOG')?><svg class="svg-icon menu"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-menu"></use></svg></a><?
 			?><ul class="first list-unstyled clearfix lvl1 noned"><?
 				foreach($arResult as $arItem){
 					if($arItem['DEPTH_LEVEL'] == 1){
-						?><li class="first<?if($arItem['IS_LAST_LVL1']=='Y'):?> lastchild<?endif;?>"><a href="<?=$arItem['LINK']?>" class="first<?if($arItem['SELECTED']):?> selected<?endif?>"><?=$arItem['TEXT']?></a></li><?
+						?><li class="first<?if($arItem['IS_LAST_LVL1']=='Y'):?> lastchild<?endif;?>"><a<?=$page == $arItem['LINK'] ? '' : ' href="'.$arItem['LINK'].'"'?> class="first<?if($arItem['SELECTED']):?> selected<?endif?>"><?=$arItem['TEXT']?></a></li><?
 					}
 				}
 			?></ul><?

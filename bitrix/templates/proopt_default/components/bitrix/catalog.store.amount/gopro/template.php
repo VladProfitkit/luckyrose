@@ -48,7 +48,7 @@ if (!function_exists('RSGoPro_GetResult20')) {
 				?><div class="popupstores noned" id="popupstores_<?=$arParams['~ELEMENT_ID']?>"><?
 					?><table><?
 						foreach($arResult['STORES'] as $key1 => $arStore) {
-							?><tr class="store_<?=$arStore['ID']?>" style="display:<?=($arParams['SHOW_EMPTY_STORE'] == 'N' && $arResult['JS']['SKU'][$arParams['FIRST_ELEMENT_ID']][$arStore['ID']] <= 0 ? 'none' : '')?>;"><?
+							?><tr class="store_<?=$arStore['ID']?>" style="display:<?=($arParams['SHOW_EMPTY_STORE'] == 'N' && $arResult['JS']['SKU'][$arParams['FIRST_ELEMENT_ID']][$arStore['ID']] <= 0 ? 'none' : 'inherit')?>;"><?
 								if (in_array('TITLE', $arParams['FIELDS'])) {
 									?><td class="title"><?=$arStore['TITLE']?></td><?
 								}
@@ -95,7 +95,7 @@ if (!function_exists('RSGoPro_GetResult20')) {
 				?><div class="popupstores noned" id="popupstores_<?=$arParams['~ELEMENT_ID']?>"><?
 					?><table><?
 						foreach($arResult['STORES'] as $key1 => $arStore) {
-							?><tr class="store_<?=$arStore['ID']?>" style="display:<?=($arParams['SHOW_EMPTY_STORE'] == 'N' && $arStore['AMOUNT'] <= 0 ? 'none' : '')?>;"><?
+							?><tr class="store_<?=$arStore['ID']?>" style="display:<?=($arParams['SHOW_EMPTY_STORE'] == 'N' && $arStore['AMOUNT'] <= 0 ? 'none' : 'inherit')?>;"><?
 								if (in_array('TITLE', $arParams['FIELDS'])) {
 									?><td class="title"><?=$arStore['TITLE']?></td><?
 								}

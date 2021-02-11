@@ -11,7 +11,7 @@ if(!empty($arResult))
 			
 			if($arItem["SELECTED"])
 			{
-				?><a href="<?=$arItem["LINK"]?>" class="selected"><?=$arItem["TEXT"]?></a><?
+				?><a class="selected"><?=$arItem["TEXT"]?></a><?
 			} else {
 				?><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a><?
 			}

@@ -76,6 +76,11 @@ body #rs_easycart .rsec_headers a.rsec_online .svg-icon{
     clip: rect(0 0 0 0);
 }
 
+a.selected:hover,
+a.selected:focus {
+    text-decoration: none;
+}
+
 @media (max-width: 1024px) {
     .view_showcase .js-element {
         height: auto !important;

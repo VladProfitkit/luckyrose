@@ -14,6 +14,7 @@ if ($isAjax) {
 	die();
 }
 
+$page = $APPLICATION->GetCurPage();
 ?>
 
 				</div>
@@ -26,7 +27,7 @@ if ($isAjax) {
 			<div class="centeringin line1 clearfix">
 				<div class="block one">
 					<div class="logo">
-						<a href="<?=SITE_DIR?>">
+                        <a<?=$page == '/' ? '' : ' href="'.SITE_DIR.'"'?>>
 							<?$APPLICATION->IncludeFile(
 								SITE_DIR."include/company_logo.php",
 								Array(),
