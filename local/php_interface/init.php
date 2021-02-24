@@ -46,6 +46,17 @@ function bxModifySaleMails($orderID, &$eventName, &$arFields)
             $additional_information.='Индекс: '.$arProps['VALUE'].'<br/>';
             $arFields["ORDER_PROP_4"] = $arProps["VALUE"];
         }
+        //Индекс
+        if ($arProps['ORDER_PROPS_ID']==26){
+          $additional_information.='Местоположение: '.$arProps['VALUE'].'<br/>';
+
+          $arLocs = CSaleLocation::GetByID($arProps['VALUE']);
+          $countryName = $arLocs['COUNTRY_NAME_LANG'];
+          $obl = $arLocs['REGION_NAME_LANG'];
+          $cityName = $arLocs['CITY_NAME_LANG'];
+
+          $arFields["LOCATION"] = $countryName.', '.$obl.', '.$cityName;
+        }
     }
     $arFields["ADD_INFORMATION"] = $additional_information;
 }
