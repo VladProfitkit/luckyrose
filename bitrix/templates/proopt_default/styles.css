@@ -18,5 +18,18 @@
     .view_showcase .js-element {
         height: 331px;
     }
+
+    .sections a.parent {
+        font-size: 16px;
+    }
 }
 
+@media (max-width: 575px) {
+    .sections a.parent {
+        font-size: 13px;
+    }
+
+    .mainsections li.section {
+        padding: 7px;
+    }
+}

@@ -1,1 +1,1 @@
-© Copyright Lucky Rose Club. All rights reserved ®.
+Copyright © 2019 — <?=(date('Y'));?>
