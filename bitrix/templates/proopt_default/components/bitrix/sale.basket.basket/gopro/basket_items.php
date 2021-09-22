@@ -62,11 +62,11 @@ if ($arResult['HAVE_PRODUCT_TYPE']['ITEMS']) {
 			?><input class="btn btn3 clearsolo" type="button" name="BasketRefresh" value="<?=GetMessage('SALE_DELETE')?>" /><?
 			?><span class="separator"></span><?
 			?>
-	<?if($arResult['allSum'] > 500){?>
+	<?//if($arResult['allSum'] > 500){?>
 	<input class="btn btn1" type="submit" name="BasketOrder" value="<?=GetMessage('SALE_ORDER')?>" onclick="location.href='<?=$arParams['PATH_TO_ORDER']?>';return false;" />
-	<?} else {?>
-		Минимальная сумма заказа 500 рублей
-	<?}?>
+	<?//} else {?>
+		<?//Минимальная сумма заказа 500 рублей?>
+	<?//}?>
 	<?
 		?></div><?
 
